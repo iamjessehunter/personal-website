@@ -1,0 +1,19 @@
+
+.name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+	font-family: microsquare;
+	font-weight: 700;
+	font-size: 52px;
+	color: #006FFF;
+	padding: 15px;
+}
+
+
+
+
+
+

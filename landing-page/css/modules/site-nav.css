@@ -1,0 +1,33 @@
+
+
+.nav-bar  {
+  background-color: #FFF8F0;
+  position: sticky;
+  
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+
+  font-family: microsquare;
+  font-size: 14px;
+  color: #475F77;
+  transition: .5s;
+}
+
+.nav-links a:hover {
+  transition: 1s;
+  color: white;
+}
+
+
+@media (min-width: 700px) {
+  .nav-bar {
+    width: 100%;
+  }
+}
