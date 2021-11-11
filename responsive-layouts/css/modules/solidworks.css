@@ -1,14 +1,36 @@
 
 
 /* SOLIDWORKS */
+.solidworks {
+	min-height: 50vh;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--tertiary);
+
+
+	--primary: #EDEDED;
+	--secondary: #B0A8BA;
+	--tertiary: #6A6A6A;
+	--light: #FFFFFF;
+	--lightdark: #D3D3D3;
+	--dark: black;
+}
+
 header-solidworks {
 	display: block;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 .site-header {
   padding: 5px;
-  background-color: lightgrey;
+  background-color: var(--dark);
 }
 
 .site-menu a, .logo-menu a {
@@ -16,22 +38,35 @@ header-solidworks {
   text-decoration: none;
   font-size: 20px;
   padding: 20px;
-  color: black;
-}
-
-nav a:hover {
-  background-color: rgba(0,0,0,.1);
-}
-
-.site-menu {
-  background-color: var(--pe-cyan-light);
+  color: var(--light);
 }
 
 .logo-menu {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: var(--pe-purple-light);
+}
+
+.logo-menu span {
+	font-weight: 700;
+}
+
+.site-menu {
+	background-color: var(--dark);
+}
+
+.site-menu a {
+	color: var(--light);
+}
+
+.logo-menu .toggle {
+	border: 2px solid var(--light);
+	background-color: inherit;
+	color: var(--light);
+	border-radius: 20px;
+	width: 100px;
+	height: 40px;
+	padding: 0px 5px;
 }
 
 
@@ -41,7 +76,7 @@ nav a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 100vh;
     /* */
     display: flex;
@@ -60,11 +95,6 @@ nav a:hover {
     min-width: 200px;
     text-align: center;
   }
-  .site-menu .corner {
-/*     position: absolute;
-    top: 20px;
-    right: 20px; */
-  }
   body.small-menu-open .site-menu {
     opacity: 1;
     pointer-events: initial;
@@ -77,7 +107,6 @@ nav a:hover {
 
 
 @media (min-width: 600px) {
-
   .toggle {
     display: none;
   }
@@ -93,6 +122,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
   }
+
 }
 
 
@@ -108,21 +138,6 @@ nav a:hover {
 
 
 /* SETUP */
-.solidworks {
-	min-height: 50vh;
-	margin-bottom: 30px;
-	padding: 20px;
-	background-color: var(--grey);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-
-	--grey: #6A6A6A;
-	--white: #EDEDED;
-	--mudpurple: #B0A8BA;
-}
-
 grid-wrapper {
 	display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -132,11 +147,12 @@ grid-wrapper {
 
 .mod {
 	position: relative;
-	background-color: var(--white);
+	background-color: var(--primary);
+	color: var(--dark);
 
 	transition: 0.5s ease-in-out;
 	padding: 20px;
-	border: .5px solid var(--mudpurple);
+	border: .5px solid var(--secondary);
 }
 
 .mod-3,
@@ -202,58 +218,49 @@ grid-wrapper {
 
 /* HOVER STATES */
 .mod:hover {
+	background-color: var(--secondary);
+	color: var(--light);
 	transition: .5s;
 }
 
-.mod-1:hover {
-	box-shadow: -5px -5px 10px 0px white;
-}
 
-.mod-2:hover {
-	box-shadow: 5px -5px 10px 0px white;
-}
-
-.mod-3:hover,
-.mod-6:hover {
-	box-shadow: 0px 0px 20px 0px white;
-}
-
-.mod-4:hover,
-.mod-7:hover {
-	box-shadow: -5px 0px 10px 0px white;
-}
-
-.mod-5:hover,
-.mod-8:hover {
-	box-shadow: 5px 0px 10px 0px white;
-}
-
-.mod-9:hover {
-	box-shadow: 0px 10px 10px 0px white;
-}
-
-
-/* QUERIES */
+/* BREAKPOINTS */
 @media (min-width: 760px) {
 	.mod-8 {
 		grid-column: 1 / 6;
     grid-row: 10 / 11;
 	}
-	.mod-8:hover {
-		box-shadow: -5px 0px 10px 0px white;
-	}
 	.mod-9 {
 		grid-column: 6 / 11;
     grid-row: 9 / 11;
 	}
-	.mod-9:hover {
-		box-shadow: 5px 5px 10px 0px white;
+
+	/* HOVER STATES */
+	.mod-1:hover {
+		box-shadow: -10px 0px 0px 0px var(--light);
 	}
-	.mod:hover {
-		background-color: var(--mudpurple);
-		color: white;
+	.mod-2:hover {
+		box-shadow: 10px 0px 0px 0px var(--light);
+	}
+	.mod-4:hover,
+	.mod-7:hover {
+		box-shadow: -10px 0px 0px 0px var(--light);
+	}
+	.mod-5:hover {
+		box-shadow: 10px 0px 0px 0px var(--light);
+	}
+	.mod-9:hover {
+		box-shadow: 0px 10px 0px 0px var(--light);
+	}
+	.mod-8:hover {
+		box-shadow: -10px 10px 0px 0px var(--light);
+	}
+	.mod-9:hover {
+		box-shadow: 10px 10px 0px 0px var(--light);
 	}
 }
+
+/* LARGE SCREEN */
 
 @media (min-width: 1000px) {
 	.solidworks {
@@ -263,66 +270,64 @@ grid-wrapper {
 		grid-column: 1 / 4;
   	grid-row: 1 / 2
 	}
-	.mod-1:hover {
-		transform: translate(-15px, -15px) scale(1.0) rotate(0deg);
-	}
 	.mod-2 {
 		grid-column: 1 / 4;
-	  grid-row: 2 / 3
-	}
-	.mod-2:hover {
-		transform: translate(-15px, 0px) scale(1.0) rotate(0deg);
-		box-shadow: -5px 0px 10px 0px white;
+	  grid-row: 2 / 3;
 	}
 	.mod-3 {
 		grid-column: 4 / 8;
 	  grid-row: 1 / 3;
 	}
-	.mod-3:hover {
-		transform: translate(0px, -15px) scale(1.0) rotate(0deg);
-		box-shadow: 0px -5px 10px 0px white;
-	}
 	.mod-4 {
 		grid-column: 8 / 11;
 	  grid-row: 1 / 2
-	}
-	.mod-4:hover {
-		transform: translate(15px, -15px) scale(1.0) rotate(0deg);
-		box-shadow: 5px -5px 10px 0px white;
 	}
 	.mod-5 {
 		grid-column: 8 / 11;
 	  grid-row: 2 / 3;
 	}
-	.mod-5:hover {
-		transform: translate(15px, 0px) scale(1.0) rotate(0deg);
-	}
 	.mod-6 {
 		grid-column: 1 / 6;
 	  grid-row: 3 / 5;
-	}
-	.mod-6:hover {
-		transform: translate(-15px, 15px) scale(1.0) rotate(0deg);
-		box-shadow: -5px 5px 10px 0px white;
 	}
 	.mod-7 {
 		grid-column: 6 / 8;
 	  grid-row: 3 / 4
 	}
-	.mod-7:hover {
-		box-shadow: initial;
-	}
 	.mod-8 {
 		grid-column: 6 / 8;
  	  grid-row: 4 / 5;
 	}
-	.mod-8:hover {
-		transform: translate(0px, 15px) scale(1.0) rotate(0deg);
-		box-shadow: 0px 5px 10px 0px white;
-	}
 	.mod-9 {
 		grid-column: 8 / 11;
 	  grid-row: 3 / 5;
+	}
+
+	/* HOVER STATES */
+	.mod-1:hover {
+		transform: translate(-15px, 0px) scale(1.0) rotate(0deg);
+	}
+	.mod-2:hover {
+		transform: translate(-15px, 0px) scale(1.0) rotate(0deg);
+		box-shadow: -10px 0px 0px 0px var(--light);
+	}
+	.mod-4:hover {
+		transform: translate(15px, 0px) scale(1.0) rotate(0deg);
+		box-shadow: 10px 0px 0px 0px var(--light);
+	}
+	.mod-5:hover {
+		transform: translate(15px, 0px) scale(1.0) rotate(0deg);
+	}
+	.mod-6:hover {
+		transform: translate(-15px, 15px) scale(1.0) rotate(0deg);
+		box-shadow: -10px 10px 0px 0px var(--light);
+	}
+	.mod-7:hover {
+		box-shadow: initial;
+	}
+	.mod-8:hover {
+		transform: translate(0px, 15px) scale(1.0) rotate(0deg);
+		box-shadow: 0px 10px 0px 0px var(--light);
 	}
 	.mod-9:hover {
 		transform: translate(15px, 15px) scale(1.0) rotate(0deg);

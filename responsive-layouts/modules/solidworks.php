@@ -10,30 +10,33 @@
 		</h3>
 	</section>
 
+	<section class="solidworks">
+		<inner-column>
 
-<!-- normal ol' website -->
+			<!-- normal ol' website -->
 <header-solidworks class="site-header">
 	<nav class='logo-menu'>
-		<a href="#">
-		LOGO
+		<a href="#" class="slow-voice">
+		<span>SOLID</span>WORKS
 		</a>
 
-		<a href="#">Get started</a>
-
-		<button class='toggle'>
-		MENU <!-- these can also be only inserted based on the scenario AFTER the page loads -->
+		<button class='toggle slow-voice'>
+		Try now <!-- these can also be only inserted based on the scenario AFTER the page loads -->
 		</button>
 	</nav>
 
 	<nav class='site-menu'>
-		<a href="#">Join</a>
-		<a href="#">About</a>
-		<a href="#">Sign in</a>
-		<a href="#">Cart</a>
+		<a href="#" class="link-voice">Products</a>
+		<a href="#" class="link-voice">Solutions</a>
+		<a href="#" class="link-voice">Community</a>
+		<a href="#" class="link-voice">Success</a>
+		<a href="#" class="link-voice">Support</a>
+		<a href="#" class="link-voice">Buy</a>
 
-		<button class='toggle corner'>
-		CLOSE <!-- these can also be only inserted based on the scenario AFTER the page loads -->
+    <button class='toggle corner'>
+		  CLOSE <!-- these can also be only inserted based on the scenario AFTER the page loads -->
 		</button>
+    
 	</nav>
 </header-solidworks>
 
@@ -62,18 +65,6 @@ document.addEventListener('click', function(event) {
 
 
 </script>
-
-
-
-
-
-
-
-
-
-
-	<section class="solidworks">
-		<inner-column>
 			
 			<grid-wrapper>
 				<div class="mod mod-1">

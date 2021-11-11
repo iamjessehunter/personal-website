@@ -40,7 +40,7 @@
 				<div class="break"></div>
 
 				<div class="card-info">
-					<h3 class=" date mild-voice">Sat, Aug 3rd, 12:00 PM America/New_York</h3>
+					<h3 class="date mild-voice">Sat, Aug 3rd, 12:00 PM America/New_York</h3>
 					<p class="quiet-voice">We'll learn how to get into open source as a beginner, as well as tips for getting your open source project more attention.</p>
 				</div>
 			</main-card>
@@ -64,8 +64,8 @@
 					<div class="break"></div>
 
 					<div class="card-info">
-						<h3 class=" date mild-voice">Sat, Aug 3rd, 12:00 PM America/New_York</h3>
-						<p class="quiet-voice">We'll learn how to get into open source as a beginner, as well as tips for getting your open source project more attention.</p>
+						<h3 class="date mild-voice">Sat, Aug 3rd, 12:00 PM America/New_York</h3>
+						<p class="info quiet-voice">We'll learn how to get into open source as a beginner, as well as tips for getting your open source project more attention.</p>
 					</div>
 				</sub-card>
 
@@ -87,8 +87,8 @@
 					<div class="break"></div>
 
 					<div class="card-info">
-						<h3 class=" date mild-voice">Sat, Aug 3rd, 12:00 PM America/New_York</h3>
-						<p class="quiet-voice">We'll learn how to get into open source as a beginner, as well as tips for getting your open source project more attention.</p>
+						<h3 class="date mild-voice">Sat, Aug 3rd, 12:00 PM America/New_York</h3>
+						<p class="info quiet-voice">We'll learn how to get into open source as a beginner, as well as tips for getting your open source project more attention.</p>
 					</div>
 				</sub-card>
 			</div>

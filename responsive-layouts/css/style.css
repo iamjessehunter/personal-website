@@ -34,24 +34,31 @@ main {
 }
 
 html {
-	--red: #FF1F1F;
-	--blue: #D7E9F7;
-	--navy: #104471;
-	--white: #FCFAEE;
-	--black: #1E1C0C;
+	--primary: #FF1F1F; /* RED */
+	--secondary: #D7E9F7; /* BLUE */
+	--tertiary: #104471; /* NAVY */
+	--light: #FCFAEE; /* CREAM */
+	--dark: #303841; /* LIGHTBLACK */
+
+	--white: #FFFFFF; /* WHITE */
+	--black: #000000; /* BLACK */
 }
 
 .layout-info {
-	border-top: 2px solid var(--navy);
-	border-bottom: 2px solid var(--navy);
+	border-top: 2px solid var(--tertiary);
+	border-bottom: 2px solid var(--tertiary);
 	padding: 10px;
 	text-align: center;
+}
+
+.layout-info h3 {
+	color: var(--tertiary);
 }
 
 .layout-info a {
 	display: inline-block;
 	text-decoration: underline;
-	color: var(--red);
+	color: var(--primary);
 }
 
 

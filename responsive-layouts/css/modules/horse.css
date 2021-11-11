@@ -8,10 +8,14 @@
 	margin-bottom: 30px;
 	margin-top: 30px;
 	padding: 10px;
-	background-color: var(--white);
+	background-color: var(--light);
 
-	white: #FCFAEE;;
-	cream: #FEFBF5;
+	--primary: #F8574E;
+	--secondary: #FFFFFF;
+	--tertiary: #164993;
+	--lightdark: #D4D1D5;
+	--dark: #7B797C;
+	--black: #000000;
 }
 
 /* HORSE-HEAD SETUP */
@@ -22,8 +26,6 @@ horse-head {
 	align-items: center;
 	gap: 10px;
 	margin-top: 30px;
-
-	background-color: var(--lightwhite);
 }
 
 .horse-links {
@@ -39,7 +41,7 @@ horse-head {
 /* STYLES */
 
 .horse-title {
-	color: #F8574E;
+	color: var(--primary);
 	text-align: center;
 }
 
@@ -56,15 +58,15 @@ horse-head {
 }
 
 .social {
-	background-color: #FF4237;
-	color: white;
+	background-color: var(--primary);
+	color: var(--white);
 	width: 250px;
 	transition: 1s;
 }
 
 .calendar {
-	background-color: #D2CCD8;
-	color: black;
+	background-color: var(--lightdark);
+	color: var(--black);
 	width: 300px;
 	transition: 1s;
 }
@@ -110,7 +112,7 @@ sub-card {
 
 	position: relative;
 	border-radius: 20px;
-	box-shadow: 0px 10px 10px 0px lightgrey;
+	box-shadow: 0px 10px 10px 0px var(--lightdark);
 	transition: 1s;
 }
 
@@ -145,40 +147,48 @@ sub-card {
 
 main-card:hover,
 sub-card:hover {
-	box-shadow: 0px 10px 10px 0px darkgrey;
+	box-shadow: 0px 10px 10px 0px var(--dark);
 	transition: 1s;
 }
 
 /* MAIN-CARD */
 
 main-card {
-	background-color: #F8574E;
-	color: white;
+	background-color: var(--primary);
+	color: var(--white);
 }
 
 main-card .sub-title {
-	background-color: white;
-	color: #F8574E;
+	background-color: var(--white);
+	color: var(--primary);
 }
 
 main-card .break {
-	border: 2px solid white;
+	border: 2px solid var(--white);
 }
 
 /* SUB-CARD */
 
 sub-card {
-	background-color: white;
-	color: #F8574E;
+	background-color: var(--white);
+	color: var(--primary);
 }
 
 sub-card .sub-title {
-	background-color: #F8574E;
-	color: white;
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+sub-card .card-info .date {
+	color: var(--tertiary);
+}
+
+sub-card .card-info .info {
+	color: var(--black);
 }
 
 sub-card .break {
-	border: 2px solid red;
+	border: 2px solid var(--primary);
 }
 
 
@@ -235,6 +245,8 @@ sub-card .break {
 
 
 
+
+
 /* PAST EVENTS */
 past-events-wrapper {
 	margin-top: 30px;
@@ -251,11 +263,11 @@ past-events-wrapper {
 }
 
 .title-past {
-	color: #F8574E;
+	color: var(--primary);
 }
 
 .sub-title-past {
-	color: var(--navy);
+	color: var(--tertiary);
 }
 
 .past-cards {
@@ -273,7 +285,7 @@ past-events-wrapper {
 	background-color: white;
 	color: #F8574E;
 	border-radius: 20px;
-	box-shadow: 0px 10px 10px 0px lightgrey;
+	box-shadow: 0px 10px 10px 0px var(--lightdark);
 
 	padding: 20px;
 	min-width: 300px;
