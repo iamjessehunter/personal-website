@@ -13,30 +13,28 @@
 
 <!-- normal ol' website -->
 <header-solidworks class="site-header">
-<nav class='logo-menu'>
- <a href="#">
-   LOGO
- </a>
- 
- <a href="#">Get started</a>
- 
- <button class='toggle'>
-   MENU <!-- these can also be only inserted based on the scenario AFTER the page loads -->
- </button>
-</nav>
+	<nav class='logo-menu'>
+		<a href="#">
+		LOGO
+		</a>
 
+		<a href="#">Get started</a>
 
-<nav class='site-menu'>
- <a href="#">Join</a>
- <a href="#">About</a>
- <a href="#">Sign in</a>
- <a href="#">Cart</a>
- 
- <button class='toggle corner'>
-   CLOSE <!-- these can also be only inserted based on the scenario AFTER the page loads -->
- </button>
-</nav>
+		<button class='toggle'>
+		MENU <!-- these can also be only inserted based on the scenario AFTER the page loads -->
+		</button>
+	</nav>
 
+	<nav class='site-menu'>
+		<a href="#">Join</a>
+		<a href="#">About</a>
+		<a href="#">Sign in</a>
+		<a href="#">Cart</a>
+
+		<button class='toggle corner'>
+		CLOSE <!-- these can also be only inserted based on the scenario AFTER the page loads -->
+		</button>
+	</nav>
 </header-solidworks>
 
 <script type="text/javascript">
