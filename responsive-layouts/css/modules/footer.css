@@ -1,0 +1,18 @@
+
+/* FOOTER STYLES */
+
+footer {
+	min-height: 10vh;
+	position: sticky;
+	top: 0;
+	background-color: var(--white);
+}
+
+footer-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap:  40px;
+	padding: 10px;
+}

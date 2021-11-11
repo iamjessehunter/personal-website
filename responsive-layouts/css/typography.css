@@ -17,20 +17,21 @@
 	font-family: oswald, regular;
 	font-size: 24px;
 	line-height: 1.3;
+	letter-spacing: 1.5px;
 }
 
 .slow-voice {
 	font-family: oswald, regular;
 	font-size: 19px;
 	line-height: 1.5;
-	letter-spacing: 1.7;
+	letter-spacing: 1.5px;
 }
 
 .quiet-voice {
 	font-family: 'Quattrocento', Serif;
 	font-size: 17px;
 	line-height: 1.5;
-	font-weight: 500;
+	letter-spacing: 1.2px;
 }
 
 .nav-voice {
