@@ -17,7 +17,7 @@
 
 			<?php include("modules/solidworks.php"); ?>
 
-			<?php include("modules/seegrid.php"); ?>
+			<?php include("modules/grandcentral.php"); ?>
 					
 		</main>
 

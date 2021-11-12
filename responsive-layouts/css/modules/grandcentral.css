@@ -1,0 +1,28 @@
+
+
+/* GRANDCENTRAL */
+.grandcentral {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+	min-height: 100vh;
+}
+
+.ny-head {
+	min-height: 300px;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("https://images.unsplash.com/photo-1611867010715-e6531fe870c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
+}
+
+.ny-title	{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: white;
+	font-weight: 700;
+	padding: 10px;
+	text-align: center;
+}
