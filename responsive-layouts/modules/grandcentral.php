@@ -15,6 +15,9 @@
 			<h1 class="ny-title strong-voice">NEW YORK CITY MUSEUM</h1>
 		</div>
 
+		<div class="break"></div>
+		<div class="break"></div>
+
 	</section>
 	</inner-column>
 </section>

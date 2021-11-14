@@ -6,6 +6,9 @@
 	margin-bottom: 30px;
 	padding: 10px;
 	min-height: 100vh;
+	position: relative;
+
+	--primary: #DAA82F;
 }
 
 .ny-head {
@@ -25,4 +28,8 @@
 	font-weight: 700;
 	padding: 10px;
 	text-align: center;
+}
+
+.break {
+	border: 10px solid var(--primary);
 }

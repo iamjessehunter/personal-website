@@ -1,4 +1,102 @@
+
+
 @import 'meyer-reset.css';
 @import 'setup.css';
 @import 'typography.css';
 
+
+
+/* STRUCTURE */
+inner-column {
+	display: block;
+	width: 100%;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+/*	border: 1px solid blue;*/
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 30px;
+}
+
+html {
+	--primary: #FFE747;
+	--secondary: #000000;
+}
+
+
+
+/* STYLING AND DIALING */
+
+body {
+	background-image: url(../images/bwgwb.png);
+	background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+
+   color: var(--primary);
+}
+
+main {
+	position: relative;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+/* HEADER */
+
+.site-header {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.project-list {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 20px;
+	position: absolute;
+	top: 80px;
+	transition: .5s;
+}
+
+.site-information {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 10px;
+
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 10px;
+	max-width: 300px;
+}
+
+.site-information	p {
+	min-width: 200px;
+}
+
+.site-information span {
+	font-weight: 700;
+}
+
+.project-list a:hover{
+	text-decoration: line-through;
+	transition: .5s;
+}
+
+@media (min-width: 500px) {
+	.site-information {
+		max-width: 600px;
+	}
+}

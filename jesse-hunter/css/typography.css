@@ -1,1 +1,34 @@
-typography.css
+
+
+/* TYPOGRAPHY */
+
+.strong-voice {
+	font-family: 'Rubik', Sans-Serif;
+	font-size: 36px;
+	line-height: 1.5;
+	letter-spacing: 2px;
+}
+
+.loud-voice {
+	font-family: 'Rubik', Sans-Serif;
+	font-size: 28px;
+}
+
+.calm-voice {
+	font-family: 'Karla', Sans-Serif;
+	font-size: 15px;
+	line-height: 1.5;
+	letter-spacing: 1.5px;
+}
+
+@media (min-width: 760px) {
+	.strong-voice {
+		font-size: 60px;
+	}
+	.loud-voice {
+		font-size: 42px;
+	}
+	.calm-voice {
+		font-size: 19px;
+	}
+}
