@@ -28,7 +28,7 @@
 		<inner-column>
 			<nav class="project-list">
 				<a href="#" class="strong-voice">LAYOUTS</a>
-				<a href="#" class="strong-voice">PHP FORMS</a>
+				<a href="#" class="strong-voice">CASE STUDIES</a>
 				<a href="#" class="strong-voice">ANIMATIONS</a>
 				<a href="#" class="strong-voice">CODEPENS</a>
 				<a href="#" class="strong-voice">ABOUT</a>

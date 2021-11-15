@@ -95,8 +95,14 @@ main {
 	transition: .5s;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 760px) {
 	.site-information {
 		max-width: 600px;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		margin-left: 100px;
 	}
 }
