@@ -1,7 +1,7 @@
 <header>
 	<inner-column>
 		
-		<nav>
+		<nav class="site-nav">
 			<a href="#" class="loud-voice">RESPONSIVE LAYOUTS</a>
 		</nav>
 

@@ -59,4 +59,7 @@
 	.quiet-voice {
 		font-size: 19px;
 	}
+	.slow-voice {
+		font-size: 24px;
+	}
 }
