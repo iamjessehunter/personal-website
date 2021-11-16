@@ -55,7 +55,7 @@
 
 .dropdown {
 	background-color: var(--white);
-	padding: 1em 0;
+	padding: 16px 0;
 	position: absolute; /*WITH RESPECT TO PARENT*/
 	display: none;
 	border-radius: 8px;
@@ -93,9 +93,9 @@ input[type=checkbox]{
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
 	.menu { 
-	 	display:none;
+	 	display: none;
 	 	position: absolute;
 	 	background-color: var(--black);
 	 	right: 0;
@@ -126,6 +126,8 @@ input[type=checkbox]{
 	 	background-color: var(--black);
 	}
 }
+
+
 
 /* NY HEAD */
 .ny-head {
