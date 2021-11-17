@@ -2,6 +2,13 @@
 
 /* SOLIDWORKS */
 .solidworks {
+	--primary: #EDEDED;
+	--secondary: #B0A8BA;
+	--tertiary: #6A6A6A;
+	--light: #FFFFFF;
+	--lightdark: #D3D3D3;
+	--dark: black;
+
 	min-height: 50vh;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -13,14 +20,6 @@
 	align-items: center;
 
 	background-color: var(--tertiary);
-
-
-	--primary: #EDEDED;
-	--secondary: #B0A8BA;
-	--tertiary: #6A6A6A;
-	--light: #FFFFFF;
-	--lightdark: #D3D3D3;
-	--dark: black;
 }
 
 header-solidworks {

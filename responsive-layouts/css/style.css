@@ -7,12 +7,24 @@
 @import 'modules/horse.css';
 @import 'modules/solidworks.css';
 @import 'modules/grandcentral.css';
+@import 'modules/proofpoint.css';
 
 
 @import 'modules/footer.css';
 
 
 /* STRUCTURE */
+html {
+	--primary: #FF1F1F; /* RED */
+	--secondary: #D7E9F7; /* BLUE */
+	--tertiary: #104471; /* NAVY */
+	--light: #FCFAEE; /* CREAM */
+	--dark: #303841; /* LIGHTBLACK */
+
+	--white: #FFFFFF; /* WHITE */
+	--black: #000000; /* BLACK */
+}
+
 inner-column {
 	display: block;
 	width: 100%;
@@ -31,17 +43,6 @@ body {
 
 main {
 	flex-grow: 1;
-}
-
-html {
-	--primary: #FF1F1F; /* RED */
-	--secondary: #D7E9F7; /* BLUE */
-	--tertiary: #104471; /* NAVY */
-	--light: #FCFAEE; /* CREAM */
-	--dark: #303841; /* LIGHTBLACK */
-
-	--white: #FFFFFF; /* WHITE */
-	--black: #000000; /* BLACK */
 }
 
 .layout-info {

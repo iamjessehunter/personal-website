@@ -6,7 +6,7 @@
 	<section class="layout-info">
 		<h3 class="mild-voice">
 			Section Layout:
-			<a href="https://seegrid.com/" target="_blank">Grand Central</a>
+			<a href="https://www.grandcentralterminal.com/shop/new-york-transit-museum-gallery-store/" target="_blank">Grand Central</a>
 		</h3>
 	</section>
 

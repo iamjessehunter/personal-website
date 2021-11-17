@@ -26,19 +26,12 @@
 
 	<main>
 		<inner-column>
-			<nav class="project-list">
-				<a href="#" class="strong-voice">LAYOUTS</a>
-				<a href="#" class="strong-voice">CASE STUDIES</a>
-				<a href="#" class="strong-voice">ANIMATIONS</a>
-				<a href="#" class="strong-voice">CODEPENS</a>
-				<a href="#" class="strong-voice">ABOUT</a>
-				<a href="#" class="strong-voice">COMMUNICATE</a>
 
-				<information class="site-information">
-					<p class="calm-voice"><span>JESSE HUNTER</span> is a web developer and designer.</p>
-					<p class="calm-voice">I exist to help you plan, create, and visualize your ideas. I have achieved an affinity for helping businesses of all sizes and individual clients maximize their goals. I look forward to helping you do the same.</p>
-				</information>
-			</nav>
+			<section class="welcome">
+<!-- 				<p class="calm-voice"><span>JESSE HUNTER</span> is a web developer and designer.</p>
+				<p class="calm-voice">I exist to help you plan, create, and visualize your ideas. I have achieved an affinity for helping businesses of all sizes and individual clients maximize their goals. I look forward to helping you do the same.</p> -->
+			</section>
+
 		</inner-column>
 	</main>
 </body>

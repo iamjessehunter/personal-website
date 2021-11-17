@@ -1,0 +1,173 @@
+
+/* COMPONENTS */
+.button {
+	display: block;
+	padding: 15px 20px;
+	background-color: dodgerblue;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+
+/* MODULES */
+
+/* PART ONE */
+part-one {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	position: relative;
+}
+
+part-one h2 {
+	padding: 20px 0;
+}
+
+part-one .button {
+	position: absolute;
+	bottom: 0;
+	left: 50%;        /* x, y */
+	transform: translate(-50%, -20px);
+}
+
+part-one picture {
+	width: 80%;
+	max-width: 500px;
+}
+
+@media (min-width: 700px) {
+	part-one {
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	
+	part-one picture {
+		max-width: 40%;
+		margin-right: 10%;
+		transform: translate(0, 20%);
+		z-index: -1;
+	}
+	
+	part-one .button {
+		position: static; /* reset */
+		transform: initial;
+	}
+	
+	part-one .messaging {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+	part-one .button {
+		margin-left: 30px;
+	}
+}
+
+part-two {
+	display: block;
+}
+
+part-two .stories-cta {
+	padding: 20px;
+	background-color: #666;
+	color: white;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+part-two .stories-cta h3 {
+	margin-top: 20px;
+	font-size: 26px;
+}
+
+part-two .stories-cta p {
+	margin-top: 20px;
+}
+
+part-two .stories-cta .button {
+	margin-top: 20px;
+}
+
+part-two .partner-logos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin-top: -30px;
+
+	position: relative; 
+	/* needs a position for z-index to work */
+	/* also - for ::before */
+	z-index: -1;
+	
+	background-color: #f98e2b;
+}
+
+
+
+part-two .partner-logos .logo {
+	flex-basis: 33%;
+	padding: 20px;
+}
+
+
+@media (min-width: 700px) {
+	part-two {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+	}
+	part-two > * {
+		width: 50%;
+	}
+	
+	part-two .stories-cta {
+		margin-left: initial;
+		margin-right: initial;
+		box-shadow: 0 0 0 20px #666;
+/* 		outline: 20px solid red; */
+
+		position: relative;
+	}
+
+	part-two .stories-cta::after {
+		content: "";
+		display: block;
+		background-color: #666;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 100%;
+		height: 100%;
+		width: 50vw;
+
+		box-shadow: 0 0 0 20px #666;
+	}
+
+	part-two .partner-logos {
+		margin-top: initial;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	part-two .partner-logos::before {
+		content: "";
+		display: block;
+		background-color: #f98e2b;
+		position: absolute;
+		top: 0;
+		right: 100%;
+		height: 100%;
+		width: 50vw;
+	}
+
+}
