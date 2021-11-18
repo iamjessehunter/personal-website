@@ -15,49 +15,56 @@ inner-column {
 /*	border: 1px solid blue;*/
 }
 
-body {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	padding: 30px;
-}
-
 html {
 	--primary: #4281FA;
 	--secondary: #FEF8F0;
+	--dark: #798997;
 }
-
-
-
-/* STYLING AND DIALING */
 
 body {
 	background-color: var(--secondary);
-   color: var(--primary);
 }
 
-main {
-	position: relative;
-	margin-bottom: 30px;
-	padding-bottom: 30px;
-}
+/* STYLING AND DIALING */
 
-/* HEADER */
-
+/* SITE-HEADER */
 .site-header {
-	margin-top: 20px;
-	display: flex;
-	flex-direction: row;
+	padding: 20px;
+	color: var(--primary);
+}
+
+
+/* WELCOME-PAGE */
+.welcome {
+	padding: 20px;
+}
+
+.welcome .intro {
+	color: var(--primary);
+}
+
+.welcome .profession {
+	-webkit-text-stroke: .5px var(--dark);
+	color: var(--secondary);
+	margin-bottom: 60px;
+}
+
+.spacer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 1px;
+	background-color: var(--dark);
+	width: 100%;
 }
 
 /**/
-
-.welcome {
-	position: relative;
+.mission {
+	max-width: 500px;
+	border-left: 1px solid var(--primary);
+	padding: 10px;
 }
 
-.welcome picture {
-	position: absolute;
-	top: 40px;
-	left: 0;
+
+.mission p + p {
+	margin-top: 10px;
 }

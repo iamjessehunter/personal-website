@@ -5,6 +5,7 @@
 	font-family: oswald, regular;
 	font-size: 60px;
 	line-height: 1.2;
+	letter-spacing: 0.05em; 
 }
 
 .loud-voice {
@@ -29,9 +30,9 @@
 
 .quiet-voice {
 	font-family: 'Quattrocento', Serif;
-	font-size: 17px;
+	font-size: 1.1rem;
 	line-height: 1.5;
-	letter-spacing: 1.2px;
+	letter-spacing: 0.05em; 
 }
 
 .nav-voice {
