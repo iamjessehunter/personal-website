@@ -6,7 +6,7 @@
 		<section class="layout-info">
 			<h3 class="mild-voice">
 				Section Layout:
-				<a href="https://solidworks.com/" target="_blank">Solidworks</a>
+				<a href="https://www.proofpoint.com/us" target="_blank">Proofpoint</a>
 			</h3>
 		</section>
 
@@ -14,13 +14,13 @@
 			<inner-column>
 				<part-one>
 					<div class="messaging">
-						<h2 class="loud-voice">Start protecting your people today</h2>
+						<h2 class="mild-voice">Start protecting your people today</h2>
 						
 						<a class="button nav-voice" href="#" >Start a free trial</a>
 					</div>
 
 					<picture>
-						<img src="images/colorado.jpg" alt="#">
+						<img src="images/proof-portrait.png" alt="#">
 					</picture>
 				</part-one>
 

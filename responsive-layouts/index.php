@@ -20,6 +20,8 @@
 			<?php include("modules/grandcentral.php"); ?>
 
 			<?php include("modules/proofpoint.php"); ?>
+
+			<?php include("modules/paperpillar.php"); ?>
 					
 		</main>
 

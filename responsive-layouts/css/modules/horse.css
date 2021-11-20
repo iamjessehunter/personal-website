@@ -272,8 +272,8 @@ past-events-wrapper {
 
 .past-cards {
 	margin-top: 30px;
-	margin-bottom: 80px;
-	padding-bottom: 100px;
+	margin-bottom: 60px;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

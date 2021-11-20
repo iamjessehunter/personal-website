@@ -1,0 +1,67 @@
+
+
+/* PAPERPILLAR */
+.paperpillar {
+	min-height: 100vh;
+	margin-top: 30px;
+}
+
+.paperpillar .break {
+	height: 2px;
+	width: 40px;
+	background-color: red;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+
+/**/
+.paperpillar services {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	flex-wrap: wrap;
+/*	border: 2px solid blue;*/
+}
+
+.paperpillar services .information {
+	flex-basis: 50%;
+	max-width: 175px;
+	padding: 20px;
+	text-align: center;
+/*	border: 1px solid red;*/
+}
+
+.paperpillar services .information h3 {
+	margin-top: 10px;
+}
+
+.paperpillar services .information p {
+	display: none;
+}
+
+@media (min-width: 760px) {
+	.paperpillar services .information p {
+		display: block;
+	}
+	.paperpillar .services {
+		/*/*/*/*/**/*/*/*/*/
+	}
+}
+
+/* CLIENTS */
+clients {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 30px;
+}
+
