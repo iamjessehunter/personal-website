@@ -12,7 +12,7 @@
 
 		<section class="paperpillar">
 			<div class="title">
-				<h2 class="loud-voice">What I Do</h2>
+				<h1 class="strong-voice">What I Do</h1>
 				<div class="break"></div>
 			</div>
 
@@ -73,10 +73,20 @@
 					<div class="break"></div>
 				</div>
 
-				<div class="work">
-					<div class="company">
-						
-					</div>
+				<div class="work work-1">
+					<a class="mild-voice" href="#">Name</a>
+				</div>
+				<div class="work work-2">
+					<a class="mild-voice" href="#">Name</a>
+				</div>
+				<div class="work work-3">
+					<a class="mild-voice" href="#">Name</a>
+				</div>
+				<div class="work work-4">
+					<a class="mild-voice" href="#">Name</a>
+				</div>
+				<div class="work work-5">
+					<a class="mild-voice" href="#">Name</a>
 				</div>
 			</clients>
 			
