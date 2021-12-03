@@ -2,8 +2,10 @@
 html {
 	--black: #111111;
 	--white: #FFFFFF;
-	--color: #9ec9eb;
-	--highlight: #aadee9;
+	--color: #016FFF;
+	--highlight: #798897;
+	--primary: #FFF8EF;
+	--secondary: #016FFF;
 }
 /* you can make more! */
 

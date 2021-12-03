@@ -1,29 +1,76 @@
 
 graphic-diptych {
   display: block;
-  padding:  20px;
   padding-top: 4vh;
   padding-bottom: 4vh;
 }
 
 graphic-diptych text-content {
   display: block;
+  color: var(--secondary);
 }
 
-@media (min-width: 660px) {
+graphic-diptych text-content h1 {
+  border-bottom: 2px solid var(--highlight);
+  border-bottom-width: 20%;
+}
+
+graphic-diptych text-content .mission {
+  border-left: .2px solid var(--highlight);
+  margin-top: 20px;
+}
+
+graphic-diptych .bg-img {
+  display: none;
+}
+
+graphic-diptych .about {
+  max-width: 100px;
+  margin-left: 5px;
+  margin-top: 10px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--secondary);
+}
+
+@media (min-width: 800px) {
   graphic-diptych {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
+    gap: 50px;
   }
 
-  graphic-diptych :is(picture, text-content) {
-    width: 50%;
+  graphic-diptych text-content {
+    position: fixed;
+    right: 40%;
+    top: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   graphic-diptych picture {
-    order: 2;
-    /* OR you could use flex-direction row-reverse */
-    /* it depends on the situation */
+    width: 100%;
+  }
+
+  graphic-diptych picture {
+    display: initial;
+  }
+
+  graphic-diptych .bg-img {
+    display: initial;
+    background-color: var(--secondary);
+    position: fixed;
+    top: 0;
+    left: 60%;
+    right: 0;
+    z-index: 1;
+    width: 40%;
+    height: 100%;
+  }
+
+  graphic-diptych .bg-img picture {
+    position: relative;
+    top: 30%;
   }
 }

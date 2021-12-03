@@ -35,7 +35,7 @@
 
 
 html {
-	background-color: var(--white);
+	background-color: var(--primary);
 }
 
 
@@ -61,20 +61,20 @@ html {
 
 
 /* just to show the full-width and section seperation */
-section:nth-of-type(odd) {
+/*section:nth-of-type(odd) {
 	background-color: rgba(0,0,0,.05);
-}
+}*/
 
 
 
 /* OK! SITE STYLES! */
 .site-header {
-  background-color: var(--color);
+  background-color: var(--primary);
   color: var(--white);
 }
 
 .welcome {
-  
+  min-height: 80vh;
 }
 
 
@@ -104,8 +104,8 @@ section:nth-of-type(odd) {
 }
 
 .site-footer {
-	background-color: var(--color);
-	color: var(--white);
+	background-color: var(--primary);
+	color: var(--highlight);
 }
 
 .site-footer .logo {

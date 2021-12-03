@@ -1,14 +1,27 @@
 
 <graphic-diptych>
 
-	<picture>
-		<img src='https://peprojects.dev/images/square.jpg' alt='$todo'>
-	</picture>
+	<div class="bg-img">
+		<picture>
+			<img src='images/bgcomputer.png' alt='$todo'>
+		</picture>
+	</div>
+	
 
 	<text-content>
-		<h1 class='intro-voice'>Hello! This is a 'diptych'</h1>
+		<h3 class='mild-voice'>Web Developer / Designer</h3>
 
-		<p class='calm-voice'>You can call it whatever you want. It's a module that has an image and some supporting text. On the smaller screen it works nicely to stack. On a larger screen, it fits side by side.</p>
+		<h1 class="intro-voice">I'm Jesse and I am looking for a full-time position with a creative and awesome team.</h1>
+
+		<div class="mission">
+			<p class='low-voice'>I like helping you plan, create, and visualize your ideas with code.</p>
+
+			<p class="low-voice">I have achieved an affinity for helping businesses of all sizes and individual clients maximize their goals.</p>
+
+			<p class="low-voice">I look forward to helping you do the same.</p>
+
+			<a class="about calm-voice" href="#">ABOUT ME</a>
+		</div>
 	</text-content>
 
 </graphic-diptych>

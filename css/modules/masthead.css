@@ -1,26 +1,52 @@
 
 mast-head {
   display: block;
+  position: absolute;
+  left: 0;
 }
 
 mast-head nav {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 mast-head .logo {
-  max-width:  60px;
+  max-width: 90px;
 }
 
 mast-head a {
   padding:  10px;
 }
 
-@media (min-width: 600px) {
+mast-head .user-menu {
+  background-color: var(--primary);
+  color: var(--secondary);
+
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  border-top: 2px solid var(--highlight);
+}
+
+
+@media (min-width: 760px) {
   mast-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  mast-head .logo {
+    max-width: 125px;
+  }
+  mast-head .user-menu {
+    position: initial;
+    background-color: initial;
+    border-top: none;
   }
 }
