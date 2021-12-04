@@ -7,4 +7,5 @@
 	<meta property='og:image' content='images/default.png'>
 
 	<link rel='stylesheet' href='css/style.css'>
+	<link href="https://fonts.googleapis.com/css?family=Karla|Rubik" rel="stylesheet">
 </head>

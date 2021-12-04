@@ -14,17 +14,17 @@
 
 
 
-<!-- <section class='get-involved'>
+<section class='get-involved'>
 <inner-column>
 
-	CALL TO ACTION
+	<?php include('modules/call-to-action.php'); ?>
 
 </inner-column>
 </section>
 
 
 
-<section class='stuff'>
+<!-- <section class='stuff'>
 <inner-column>
 	
 	ARTICLES INTRO
