@@ -3,11 +3,10 @@
 <?php include('header.php'); ?>
 
 
-
 <section class='welcome'>
 <inner-column>
 
-	<?php include('modules/graphic-diptych.php'); ?>
+	<?php include('modules/home.php'); ?>
 
 </inner-column>
 </section>
@@ -17,7 +16,7 @@
 <section class='get-involved'>
 <inner-column>
 
-	<?php include('modules/call-to-action.php'); ?>
+	<?php include('modules/about.php'); ?>
 
 </inner-column>
 </section>

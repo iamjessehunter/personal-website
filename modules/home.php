@@ -1,4 +1,5 @@
 
+
 <graphic-diptych>
 
 	<div class="bg-img">
@@ -20,8 +21,10 @@
 
 			<p class="low-voice">I look forward to helping you do the same.</p>
 
-			<a class="about calm-voice" href="#">ABOUT ME</a>
+			<a class="about calm-voice" href="?page=about">ABOUT ME</a>
 		</div>
 	</text-content>
 
 </graphic-diptych>
+
+

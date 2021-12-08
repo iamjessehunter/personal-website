@@ -25,8 +25,8 @@
 
 /* MODULES */
 @import 'modules/masthead.css';
-@import 'modules/graphic-diptych.css';
-@import 'modules/call-to-action.css';
+@import 'modules/home.css';
+@import 'modules/about.css';
 @import 'modules/articles-intro.css';
 @import 'modules/article-card.css';
 @import 'modules/site-map.css';
@@ -81,8 +81,7 @@ html {
 
 
 .get-involved {
-  background-color:  var(--highlight);
-  background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  background-color:  var(--primary);
 } /* interesting way to include the whole image in your CSS */
 
 .get-involved inner-column {

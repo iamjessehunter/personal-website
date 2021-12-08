@@ -1,8 +1,12 @@
 
 graphic-diptych {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 4vh;
   padding-bottom: 4vh;
+  min-height: 90vh;
 }
 
 graphic-diptych text-content {
@@ -42,7 +46,7 @@ graphic-diptych .about {
   }
 
   graphic-diptych text-content {
-    position: fixed;
+    position: absolute;
     right: 40%;
     top: 25%;
     padding-left: 20px;
@@ -60,9 +64,8 @@ graphic-diptych .about {
   graphic-diptych .bg-img {
     display: initial;
     background-color: var(--secondary);
-    position: fixed;
+    position: absolute;
     top: 0;
-    left: 60%;
     right: 0;
     z-index: 1;
     width: 40%;
