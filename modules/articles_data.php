@@ -2,33 +2,33 @@
 
 $database = [ // an associative array (Array of key:value pairs)
 	[
-		"heading" => "Article or product",
+		"heading" => "Ultra Responsive Layouts",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
+		"site" => "Visit Site",
+		"case" => "Read Case Study"
 	],
 	[
-		"heading" => "Destination or option",
+		"heading" => "PHP Forms",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
+		"site" => "Visit Site",
+		"case" => "Read Case Study"
 	],
 	[
-		"heading" => "Story or something",
+		"heading" => "Codepens",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
+		"site" => "Visit Site",
+		"case" => "Read Case Study"
 	],
 	[
-		"heading" => "Banana tandori",
+		"heading" => "SVG Graphics",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
+		"site" => "Visit Site",
+		"case" => "Read Case Study"
 	],
 	[
-		"heading" => "Bar B Q",
+		"heading" => "Wordpress Site",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
-	],
-	[
-		"heading" => "Marsala",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
+		"site" => "Visit Site",
+		"case" => "Read Case Study"
 	],
 ];

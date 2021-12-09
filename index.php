@@ -2,45 +2,25 @@
 
 <?php include('header.php'); ?>
 
-
-<section class='welcome'>
-<inner-column>
-
-	<?php include('modules/home.php'); ?>
-
-</inner-column>
-</section>
-
-
-
-<section class='get-involved'>
-<inner-column>
-
-	<?php include('modules/about.php'); ?>
-
-</inner-column>
-</section>
-
-
-
-<!-- <section class='stuff'>
-<inner-column>
-	
-	ARTICLES INTRO
-
-</inner-column>
-</section>
+<?php 
+	if ($page == "home") {
+		include "modules/home.php";
+	}
+	if ($page == "about") {
+		include "modules/about.php";
+	}
+	if ($page == "projects") {
+		include "modules/projects.php";
+	}
+	if ($page == "case-studies") {
+		include "modules/case-studies.php";
+	}
+	if ($page == "contact") {
+		include "modules/contact.php";
+	}
+?>
 
 
 
-<section class='help-us'>
-<inner-column>
 
-	CALL TO ACTION
-
-</inner-column>
-</section> -->
-
-
-
-<!-- FOOTER -->
+<?php //include('footer.php'); ?>

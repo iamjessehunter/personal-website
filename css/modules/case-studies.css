@@ -1,0 +1,14 @@
+
+case-studies {
+	display: block;
+}
+
+case-studies h1 {
+	color: var(--secondary);
+	padding: 10px;
+}
+
+case-studies a {
+	padding: 10px;
+	text-decoration: underline;
+}

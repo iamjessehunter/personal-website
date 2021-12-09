@@ -6,7 +6,8 @@ graphic-diptych {
   align-items: center;
   padding-top: 4vh;
   padding-bottom: 4vh;
-  min-height: 90vh;
+  min-height: 80vh;
+  position: relative;
 }
 
 graphic-diptych text-content {
@@ -28,21 +29,11 @@ graphic-diptych .bg-img {
   display: none;
 }
 
-graphic-diptych .about {
-  max-width: 100px;
-  margin-left: 5px;
-  margin-top: 10px;
-  text-align: center;
-  color: var(--white);
-  background-color: var(--secondary);
-}
-
 @media (min-width: 800px) {
   graphic-diptych {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    gap: 50px;
   }
 
   graphic-diptych text-content {

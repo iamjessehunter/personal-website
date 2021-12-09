@@ -1,0 +1,14 @@
+
+contact {
+	display: block;
+}
+
+contact h1 {
+	color: var(--secondary);
+	padding: 10px;
+}
+
+contact a {
+	padding: 10px;
+	text-decoration: underline;
+}

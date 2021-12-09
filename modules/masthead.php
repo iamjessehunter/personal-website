@@ -8,9 +8,11 @@
 	</nav>
 
 	<nav class="user-menu">
+		<a class="about calm-voice" href="?page=about">About</a>
+
 		<a class="calm-voice" href='?page=projects'>Projects</a>
 
-		<a class="calm-voice" href='?page=case_studies'>Case Studies</a>
+		<a class="calm-voice" href='?page=case-studies'>Case Studies</a>
 
 		<a class="calm-voice" href='?page=contact'>Contact</a>
 	</nav>
@@ -19,6 +21,6 @@
 		<a href='#'>
 			<span>Light/Dark</span>
 		</a>
-	</nav> -->
+	</nav> --> 
 
 </mast-head>

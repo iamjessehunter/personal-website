@@ -9,7 +9,26 @@ article-card {
   align-items: flex-start;
 }
 
+article-card h2 {
+  color: var(--primary);
+  -webkit-text-stroke: 1px var(--secondary);
+}
+
 article-card a {
-  margin-top:  20px;
-  color: var(--color);
+  margin-top: 20px;
+  max-width: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--secondary);
+}
+
+@media (min-width: 600px) {
+  article-card .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+  }
 }

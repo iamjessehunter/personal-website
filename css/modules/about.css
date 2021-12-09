@@ -1,7 +1,6 @@
 
 about-me {
   display: block;
-  min-height: 80vh;
   padding-top: 40px;
   padding-bottom: 40px;
   /* */
@@ -10,13 +9,19 @@ about-me {
   align-items: center;
 }
 
-about-me h2 {
+about-me header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: var(--secondary);
   border-bottom: .5px solid var(--highlight);
 }
 
 about-me .info {
-
+  border-right: .5px solid var(--highlight);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 about-me a {
@@ -29,13 +34,25 @@ about-me a {
   background-color: var(--secondary);
 }
 
-.border {
+about-me .border {
   border-bottom: 2px solid var(--tertiary);
-  width: 20%;
+  max-width: 100px;
 }
 
-@media (min-width: 600px) {
-  about-me  {
-    padding: 100px;
+about-me content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+about-me content .images {
+  min-width: 300px;
+}
+
+@media (min-width: 800px) {
+  about-me content {
+    flex-direction: row;
+    gap: 30px;
   }
 }
