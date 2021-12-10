@@ -1,14 +1,6 @@
 <!doctype html>
 
-<?php 
-	/* router */
-	$page = null;
-	if ( isset($_GET["page"]) ) {
-		$page = $_GET["page"]; // url?page=string
-	} else {
-		$page = "home"; // default page
-	}
-?>
+<?php require('router.php'); ?>
 
 <html lang='en'>
 	<?php include('head.php'); ?>
