@@ -53,6 +53,10 @@ about-me content .images {
 @media (min-width: 800px) {
   about-me content {
     flex-direction: row;
-    gap: 30px;
+    gap: 50px;
+  }
+
+  about-me content .images {
+    min-width: 400px;
   }
 }

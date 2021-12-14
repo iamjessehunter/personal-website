@@ -27,10 +27,10 @@
 @import 'modules/masthead.css';
 @import 'modules/home.css';
 @import 'modules/about.css';
-@import 'modules/projects.css';
+@import 'modules/projects-intro.css';
 @import 'modules/article-card.css';
 @import 'modules/site-map.css';
-@import 'modules/case-studies.css';
+@import 'modules/case-studies-intro.css';
 @import 'modules/contact.css';
 /* should everything/nothing be in it's own file? */
 

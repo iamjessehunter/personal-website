@@ -10,10 +10,10 @@
 		include "modules/about.php";
 	}
 	if ($page == "projects") {
-		include "modules/projects.php";
+		include "modules/projects-intro.php";
 	}
 	if ($page == "case-studies") {
-		include "modules/case-studies.php";
+		include "modules/case-studies-intro.php";
 	}
 	if ($page == "contact") {
 		include "modules/contact.php";
