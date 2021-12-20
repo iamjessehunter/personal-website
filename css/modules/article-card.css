@@ -11,8 +11,6 @@ article-card {
 }
 
 article-card:hover {
-  border-left: .5px solid var(--highlight);
-  border-right: .5px solid var(--highlight);;
   transition: 1s;
 }
 
@@ -23,9 +21,8 @@ article-card h2 {
 }
 
 article-card h2:hover {
-  -webkit-text-stroke: initial;
-  color: var(--secondary);
   transition: 1s;
+  text-decoration: 4px line-through;
 }
 
 article-card a {
@@ -45,4 +42,16 @@ article-card a {
     justify-content: flex-start;
     gap: 20px;
   }
+
+  article-card:hover {
+    border-left: .5px solid var(--highlight);
+    border-right: .5px solid var(--highlight);
+  }
+
+  article-card h2:hover {
+    text-decoration: initial;
+    -webkit-text-stroke: initial;
+    color: var(--secondary);
+  }
 }
+
