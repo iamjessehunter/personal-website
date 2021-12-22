@@ -37,11 +37,3 @@
 p + p {
 	margin-top: 14px;
 }
-
-h1 + p {
-	margin-top: 20px;
-}
-
-h2 + p {
-	margin-top: 20px;
-}

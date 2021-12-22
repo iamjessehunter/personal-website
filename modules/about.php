@@ -3,7 +3,6 @@
 <inner-column>
 
 	<about-me>
-
 		<header>
 			<h2 class='attention-voice'>ABOUT ME</h2>
 		</header>
@@ -28,10 +27,8 @@
 					PROJECTS
 				</a>
 
-				<div class="border"></div>
 			</div>
 		</content>
-
 	</about-me>
 
 </inner-column>

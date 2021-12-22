@@ -16,7 +16,7 @@ mast-head .logo {
 }
 
 mast-head a {
-  padding:  10px;
+  padding: 10px;
 }
 
 mast-head .user-menu {
@@ -34,15 +34,13 @@ mast-head .user-menu {
 }
 
 
-@media (min-width: 760px) {
+@media (min-width: 600px) {
   mast-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  mast-head .logo {
-    max-width: 125px;
-  }
+
   mast-head .user-menu {
     position: initial;
     background-color: initial;

@@ -5,9 +5,7 @@
   <articles-intro>
 
     <header>
-      <div class="border"></div>
       <h2 class='attention-voice'>PROJECTS</h2>
-      <div class="border"></div>
     </header>
 
     <article-grid>

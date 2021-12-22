@@ -51,12 +51,15 @@ html {
 
 /* SITE SECTIONS */
 .site-header {
-	/*background-color: #9ec9eb;*/
-
-	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
+	padding: 2px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px .5px 5px 0px var(--highlight);
 }
+
 .site-header inner-column {
-	padding: 14px;
+	padding: 10px 0 0px;
 }
 
 
@@ -65,6 +68,7 @@ html {
 /*section:nth-of-type(odd) {
 	background-color: rgba(0,0,0,.05);
 }*/
+
 
 
 

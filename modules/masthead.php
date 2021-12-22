@@ -3,7 +3,7 @@
 
 	<nav class='site-menu'>
 		<a class='logo' href='?page=home'>
-			<img src="images/logo.png" alt="">
+			<img src="images/logo.png" alt="#">
 		</a>
 	</nav>
 

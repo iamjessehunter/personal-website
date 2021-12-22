@@ -6,8 +6,14 @@ case-intro {
 	align-items: center;
 }
 
+case-intro header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	color: var(--secondary);
+}
+
 case-intro header h2 {
-   color: var(--secondary);
    border-bottom: .5px solid var(--highlight);
 }
 

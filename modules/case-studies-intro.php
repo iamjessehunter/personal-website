@@ -5,7 +5,7 @@
 	  <case-intro>
 
 	    <header>
-	      <h2 class='attention-voice'>Case Study</h2>
+	      <h2 class='attention-voice'>CASE STUDY</h2>
 	    </header>
 
 	    <study-header>

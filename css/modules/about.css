@@ -1,8 +1,6 @@
 
 about-me {
   display: block;
-  padding-top: 40px;
-  padding-bottom: 40px;
   /* */
   display: flex;
   flex-direction: column;
@@ -15,6 +13,9 @@ about-me header {
   justify-content: center;
   align-items: center;
   color: var(--secondary);
+}
+
+about-me header h2 {
   border-bottom: .5px solid var(--highlight);
 }
 
@@ -34,11 +35,6 @@ about-me a {
   background-color: var(--secondary);
 }
 
-about-me .border {
-  border-bottom: 2px solid var(--tertiary);
-  max-width: 100px;
-}
-
 about-me content {
   display: flex;
   flex-direction: column;
@@ -50,7 +46,7 @@ about-me content .images {
   min-width: 300px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
   about-me content {
     flex-direction: row;
     gap: 50px;

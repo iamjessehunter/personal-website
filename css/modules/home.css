@@ -1,42 +1,44 @@
 
-graphic-diptych {
+/* LANDING MOD */
+landing {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /**/
   padding-top: 4vh;
   padding-bottom: 4vh;
   min-height: 80vh;
   position: relative;
 }
 
-graphic-diptych text-content {
+landing text-content {
   display: block;
   color: var(--secondary);
 }
 
-graphic-diptych text-content h1 {
+landing text-content h1 {
   border-bottom: 2px solid var(--highlight);
   border-bottom-width: 20%;
 }
 
-graphic-diptych text-content .mission {
+landing text-content .mission {
   border-left: .2px solid var(--highlight);
   margin-top: 20px;
 }
 
-graphic-diptych .bg-img {
+landing .bg-img {
   display: none;
 }
 
 @media (min-width: 800px) {
-  graphic-diptych {
+  landing {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
   }
 
-  graphic-diptych text-content {
+  landing text-content {
     position: absolute;
     right: 40%;
     top: 25%;
@@ -44,15 +46,15 @@ graphic-diptych .bg-img {
     padding-right: 20px;
   }
 
-  graphic-diptych picture {
+  landing picture {
     width: 100%;
   }
 
-  graphic-diptych picture {
+  landing picture {
     display: initial;
   }
 
-  graphic-diptych .bg-img {
+  landing .bg-img {
     display: initial;
     background-color: var(--secondary);
     position: absolute;
@@ -63,8 +65,138 @@ graphic-diptych .bg-img {
     height: 100%;
   }
 
-  graphic-diptych .bg-img picture {
+  landing .bg-img picture {
     position: relative;
     top: 30%;
+  }
+}
+
+
+
+/* NOW MOD */
+now {
+  display: block;
+  padding-top: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*  */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+now header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--secondary);
+  border-bottom: 1px solid var(--highlight);
+  border-top: 1px solid var(--highlight);
+}
+
+
+now .showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  /**/
+  margin-top: 30px;
+}
+
+now .showcase project-card {
+  display: block;
+  min-width: 280px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 0px lightgray;
+  transition: .5s;
+}
+
+now .showcase project-card:hover {
+  transition: 1s;
+  box-shadow: 0 10px 10px 0px var(--secondary);
+}
+
+now .showcase project-card picture img {
+  border-radius: 10px;
+}
+
+now .showcase project-card h2 {
+  color: var(--primary);
+  -webkit-text-stroke: 1px var(--secondary);
+  transition: 2s;
+}
+
+now .showcase project-card h2:hover {
+  transition: 1s;
+  text-decoration: 4px line-through;
+}
+
+now .cta-link {
+  margin-top: 30px;
+  padding: 10px;
+  max-width: 150px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--secondary);
+}
+
+@media (min-width: 680px) {
+  now .showcase {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
+/* GIFTS */
+.most-necessary {
+  background-color: var(--highlight);
+}
+
+gifts {
+  display: block;
+  padding-top: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*  */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+gifts header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--white);
+  border-bottom: 1px solid var(--tertiary);
+  border-top: 1px solid var(--tertiary);
+}
+
+gifts .skills-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  /**/
+  margin-top: 30px;
+}
+
+gifts .skills-grid skill-card {
+  display: block;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+@media (min-width: 680px) {
+  gifts .skills-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
