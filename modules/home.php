@@ -84,30 +84,30 @@
 
 		<div class="skills-grid">
 			<skill-card>
-				<a class="calm-voice" href="https://jessehunter.substack.com/">
+				<a class="calm-voice" href="https://jessehunter.substack.com/" target="_blank">
 					<h1 class="intro-voice">Responsive Website</h1>
 				</a>
 		
 				<p class="low-voice">Let's face it people spend about 5 hours a day on their smartphone and that's being generous. About 70% of web traffic comes from mobile phones. Rest assured my design process is mobile centric first.</p>
-				<a class="calm-voice" href="https://jessehunter.substack.com/">Read Blog Post</a>
+				<a class="calm-voice" href="https://jessehunter.substack.com/" target="_blank">Read Blog Post</a>
 			</skill-card>
 
 			<skill-card>
-				<a class="calm-voice" href="https://jessehunter.substack.com/p/designing-style-tiles">
+				<a class="calm-voice" href="https://jessehunter.substack.com/p/designing-style-tiles" target="_blank">
 					<h1 class="intro-voice">Deliberate Design Planning</h1>
 				</a>
 				
 				<p class="low-voice">Where do you start? A style tile? What does it include?</p>
-				<a class="calm-voice" href="https://jessehunter.substack.com/p/designing-style-tiles">Read Blog Post</a>
+				<a class="calm-voice" href="https://jessehunter.substack.com/p/designing-style-tiles" target="_blank">Read Blog Post</a>
 			</skill-card>
 
 			<skill-card>
-				<a class="calm-voice" href="https://jessehunter.substack.com/p/a-dreamer-commits">
+				<a class="calm-voice" href="https://jessehunter.substack.com/p/a-dreamer-commits" target="_blank">
 					<h1 class="intro-voice">Committment</h1>	
 				</a>
 				
 				<p class="low-voice">I committ and don't quit. Look where I started!</p>
-				<a class="calm-voice" href="https://jessehunter.substack.com/p/a-dreamer-commits">Read Blog Post</a>
+				<a class="calm-voice" href="https://jessehunter.substack.com/p/a-dreamer-commits" target="_blank">Read Blog Post</a>
 			</skill-card>
 		</div>
 	</gifts>

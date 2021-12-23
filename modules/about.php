@@ -24,7 +24,7 @@
 				</p>
 
 				<a class="calm-voice" href='?page=projects'>
-					PROJECTS
+					View Projects
 				</a>
 
 			</div>
