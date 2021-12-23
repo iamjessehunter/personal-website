@@ -12,7 +12,7 @@
 		<text-content>
 			<h3 class='mild-voice'>Web Developer / Designer</h3>
 
-			<h1 class="intro-voice">I'm Jesse and I am looking for a full-time position with a creative and awesome team.</h1>
+			<h1 class="intro-voice">I'm Jesse and I am looking for a full-time position with a creative and awesome team!</h1>
 
 			<div class="mission">
 				<p class='low-voice'>I like helping you plan, create, and visualize your ideas with code.</p>
@@ -78,29 +78,36 @@
 	
 	<gifts>
 		<header>
-			<h2 class="attention-voice">SKILLS</h2>
+			<h2 class="attention-voice">WRITING</h2>
 			<p class="calm-voice">it is my pleasure to offer you these skills amongst many others</p>
 		</header>
 
 		<div class="skills-grid">
 			<skill-card>
-				<h1 class="intro-voice">Responsive</h1>
+				<a class="calm-voice" href="https://jessehunter.substack.com/">
+					<h1 class="intro-voice">Responsive Website</h1>
+				</a>
+		
 				<p class="low-voice">Let's face it people spend about 5 hours a day on their smartphone and that's being generous. About 70% of web traffic comes from mobile phones. Rest assured my design process is mobile centric first.</p>
+				<a class="calm-voice" href="https://jessehunter.substack.com/">Read Blog Post</a>
 			</skill-card>
 
 			<skill-card>
-				<h1 class="intro-voice">Responsive</h1>
-				<p class="low-voice">Let's face it people spend about 5 hours a day on their smartphone and that's being generous.</p>
+				<a class="calm-voice" href="https://jessehunter.substack.com/p/designing-style-tiles">
+					<h1 class="intro-voice">Deliberate Design Planning</h1>
+				</a>
+				
+				<p class="low-voice">Where do you start? A style tile? What does it include?</p>
+				<a class="calm-voice" href="https://jessehunter.substack.com/p/designing-style-tiles">Read Blog Post</a>
 			</skill-card>
 
 			<skill-card>
-				<h1 class="intro-voice">Responsive</h1>
-				<p class="low-voice">Let's face it people spend about 5 hours a day on their smartphone and that's being generous. About 70% of web traffic comes from mobile phones.</p>
-			</skill-card>
-
-			<skill-card>
-				<h1 class="intro-voice">Responsive</h1>
-				<p class="low-voice">Let's face it people spend about 5 hours a day on their smartphone and that's being generous. About 70% of web traffic comes from mobile phones. Rest assured my design process is mobile centric first.</p>
+				<a class="calm-voice" href="https://jessehunter.substack.com/p/a-dreamer-commits">
+					<h1 class="intro-voice">Committment</h1>	
+				</a>
+				
+				<p class="low-voice">I committ and don't quit. Look where I started!</p>
+				<a class="calm-voice" href="https://jessehunter.substack.com/p/a-dreamer-commits">Read Blog Post</a>
 			</skill-card>
 		</div>
 	</gifts>

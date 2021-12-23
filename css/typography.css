@@ -32,6 +32,18 @@
 	line-height: 1.4;
 }
 
+@media (max-width: 600px) {
+	.intro-voice {
+		font-size: 36px;
+	}
+	.attention-voice {
+		font-size: 24px;
+	}
+	.mild-voice {
+		font-size: 20px;
+	}
+}
+
 /* these would be scoped to section or to an article element */
 /* this is just a loose setting for now */
 p + p {
