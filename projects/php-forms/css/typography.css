@@ -1,0 +1,20 @@
+
+.intro-voice	{
+	font-family: roboto, sans-serif;
+	font-size: 48px;
+}
+
+.mild-voice {
+	font-family: roboto, sans-serif;
+	font-size: 32px;
+}
+
+.low-voice {
+	font-family: roboto, sans-serif;
+	font-size: 18px;
+}
+
+.quiet-voice {
+	font-family: roboto, sans-serif;
+	font-size: 14px;
+}

@@ -1,58 +1,42 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sign-In Form</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<?php include "head.php"; ?>
 
 
 <?php 
-	
-	$denied = "";
-	$confirmed = "";
-	
+
+	$enteredUsername = "";
+	$enteredPassword = "";
+
+	// if form is submitted
 	if ( isset($_POST["go"]) ) {
-		$workingUsername = $_POST["username"];
-		$workingPassword = $_POST["password"];
-
-		if ( empty($_POST["workingUsername"]) ) {
-			$denied = "Error: Username was not entered";
+		if (isset($_POST["username"]) ) {
+			$enteredUsername = $_POST["username"];
+		}
+		if (isset($_POST["password"]) ) {
+			$enteredPassword = $_POST["password"];
 		}
 
-		if ( empty($_POST["workingPassword"]) ) {
-			$denied = "Error: Password was not entered";
-		}
-
-		if ( empty($workingUsername) && empty($workingPassword) ) {
-			$denied = "Error: Username and Password were both not entered";
+		// display message
+		if ($enteredUsername && $enteredPassword) {
+			echo "Logged in";
+		} else {
+			echo "Error";
 		}
 	}
-
-	function userSignin() {
-
-	}
-
-	// include("user-data.php");
 
 ?>
 
 
 	<form method="POST">
-		
-		<h1 class="title">Account Form</h1>
 
 		<div class="field">
 			<label for="">Username: </label>
-			<input type="text" name="username">
+			<input type="text" name="username" value="<?= $enteredUsername ?>">
 		</div>
 
 		<div class="field">
 			<label for="">Password: </label>
-			<input type="password" name="password">
+			<input type="password" name="password" value="<?= $enteredPassword ?>">
 		</div>
 
 		<button type="submit" name="go">Sign in</button>
