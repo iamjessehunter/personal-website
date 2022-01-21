@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>DOM</title>
+</head>
+
+<body>
+
+	<script>
+		
+		var name = prompt('What is your name');
+		var message = "Hello " + name + ", it is nice to meet you.";
+
+		// Function
+		function introduction() {
+	    var name = prompt('What is your name?');
+	    	if (name) {
+    	var message = "Hello " + name + ", it is nice to meet you.";
+    		alert(message);
+    	} else {
+      	alert("You must have a name...?");
+      	introduction();
+    }
+}
+
+	</script>
+
+
+</body>
+</html>

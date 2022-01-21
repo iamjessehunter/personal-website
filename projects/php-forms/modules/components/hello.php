@@ -9,36 +9,38 @@
 
 <?php 
 
-/* Constraint
-
-	- Keep the input, string concatenation, and output separate.
-*/
-
 /* Pseudocode
 
 	1. Initialize variables
-	3. Include first name ("Jesse")
-	4. Include last name ("Hunter")
-	5. Display question
-	6. Display first and last name
+	2. Create form
+	3. Prompt for what is your name?
+	4. Include name in prompt
+	5. Output = Hello "$name"
 */
 
-	$question = "What is your name?";
-	$first = "Jesse";
-	$last = "Hunter";
+	$name = "";
+	$greeting = "Hello ";
 
-	$message = $last."...".$first." ".$last;
+	if ( isset($_POST["submit"]) ) {
 
-	echo "What is your name?";
+		if ( isset($_POST["name"]) ) {
 
-	echo "<br>" . "<br>";
+			$name = $_POST["name"];
+		}
+	}
 
-	echo "My name is" . " $message.";
-
-	echo "<br>" . "<br>";
-
-	/* Writing without any variables */
-	echo "Hello! My name is Jesse Hunter and there are no variables to be seen here!";
 
 ?>
 
+<form method="POST">
+	
+	<label class="low-voice">What is your name?</label>
+	<input type="text" name="question">
+
+	<button type="submit" name="submit">Enter</button>
+
+</form>
+
+<br> <br>
+
+<output class="low-voice">Hello! <?=$name?></output>
