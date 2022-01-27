@@ -1,0 +1,48 @@
+
+/*Typography*/
+.strong-voice {
+	font-family: franklin gothic;
+	font-size: 28px;
+	line-height: 1.2;
+}
+
+.medium-voice {
+	font-family: franklin gothic;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.low-voice {
+	font-family: helvetica;
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+.quiet-voice {
+	font-family: helvetica;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.nav-voice {
+	font-family: franklin gothic;
+	font-size: 17px;
+}
+
+.link-voice {
+	font-family: franklin gothic;
+	font-size: 14px;
+}
+
+
+@media (min-width: 800px) {
+	.strong-voice {
+		font-size: 32px;
+	}
+	.medium-voice {
+		font-size: 24px;
+	}
+	.low-voice {
+		font-size: 19px;
+	}
+}

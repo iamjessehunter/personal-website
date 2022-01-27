@@ -1,0 +1,23 @@
+
+/*Footer*/
+.connect a {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.social-media a {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+
+.social-media a img {
+	max-width: 30px;
+}
+
+.legal a {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}

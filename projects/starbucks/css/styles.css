@@ -1,0 +1,52 @@
+
+/* RESET */
+@import 'meyer-reset.css';
+@import 'setup.css';
+@import 'typography.css';
+
+@import 'modules/site-header.css';
+@import 'modules/call-to-action.css';
+@import 'modules/footer.css';
+
+/* STRUCTURE */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+inner-column {
+	display:  block;
+	max-width: 1400px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px 5px;
+}
+
+/*Header*/
+header {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 3px black;
+}
+
+
+
+
+
+
+
+/*Main*/
+main {
+	max-width: 1000px;
+	min-height: 100vh;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+
+
+
