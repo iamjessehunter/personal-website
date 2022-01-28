@@ -33,15 +33,15 @@
 		
 			<div class="user-menu">
 				<li>
-					<a class="location nav-voice" href="#">
+					<a class="location link-voice" href="#">
 						<picture class="pin">
 							<img src="images/map.png">
 						</picture>
 						Find a store
 					</a>
 				</li>
-				<li class="existing-user"><a class="nav-voice" href="#">Sign in</a></li>
-				<li class="new-user"><a class="nav-voice" href="#">Join now</a></li>
+				<li><a class="existing-user link-voice" href="#">Sign in</a></li>
+				<li><a class="new-user link-voice" href="#">Join now</a></li>
 			</div>
 
 			

@@ -6,6 +6,10 @@
 
 @import 'modules/site-header.css';
 @import 'modules/call-to-action.css';
+@import 'modules/products.css';
+@import 'modules/delivery.css';
+@import 'modules/news.css';
+@import 'modules/updates.css';
 @import 'modules/footer.css';
 
 /* STRUCTURE */
@@ -23,21 +27,26 @@ inner-column {
 	padding: 30px 5px;
 }
 
-/*Header*/
-header {
-	background: #FFFFFF;
-	box-shadow: 0px 0px 3px black;
+/* CUSTOM PROPERTIES */
+html {
+	--black: #000000;
+	--white: #FFFFFF;
+	--primary: #006241;
+	--secondary: #1E3932;
+	--highlight: #D4E9E2;
+	--cream: #F2F0EB;
+	--lightdark: #C7C7C7;
 }
 
+/* HEADER */
+header {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 5px var(--lightdark);
+}
 
-
-
-
-
-
-/*Main*/
+/* MAIN */
 main {
-	max-width: 1000px;
+	max-width: 1400px;
 	min-height: 100vh;
 	margin-right: auto;
 	margin-left: auto;

@@ -2,13 +2,13 @@
 /*Typography*/
 .strong-voice {
 	font-family: franklin gothic;
-	font-size: 28px;
+	font-size: 24px;
 	line-height: 1.2;
 }
 
 .medium-voice {
 	font-family: franklin gothic;
-	font-size: 20px;
+	font-size: 19px;
 	line-height: 1.5;
 }
 
@@ -19,9 +19,10 @@
 }
 
 .quiet-voice {
-	font-family: helvetica;
-	font-size: 13px;
+	font-family: "helvetica, neue";
+	font-size: 15px;
 	line-height: 1.5;
+	font-weight: 500;
 }
 
 .nav-voice {
@@ -37,12 +38,9 @@
 
 @media (min-width: 800px) {
 	.strong-voice {
-		font-size: 32px;
+		font-size: 50px;
 	}
 	.medium-voice {
 		font-size: 24px;
-	}
-	.low-voice {
-		font-size: 19px;
 	}
 }

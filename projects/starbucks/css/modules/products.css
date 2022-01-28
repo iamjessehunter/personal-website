@@ -1,29 +1,32 @@
 
-cta-wrapper {
+products-wrapper {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/*  */
-	background-color: var(--primary);
+	gap: 40px;
 }
 
-.welcome-image .winter2022 {
+products-wrapper product {
+	display: block;
+	background-color: var(--secondary);
+}
+
+.fresh-image .winter2022 {
 	width: 100%;
 }
 
-.welcome-text {
+.fresh-text {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 30px;
-	/*  */
-	color: var(--white);
+	color: white;
 	padding: 20px;
 	text-align: center;
 }
 
-.welcome-text .new-user {
+.fresh-text a {
 	border: 1px solid white;
 	border-radius: 20px;
 	padding: 10px;
@@ -32,7 +35,7 @@ cta-wrapper {
 }
 
 @media (min-width: 768px) {
-	cta-wrapper {
-		flex-direction: row-reverse;
+	products-wrapper {
+		flex-direction: row;
 	}
 }
