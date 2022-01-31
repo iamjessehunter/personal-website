@@ -1,0 +1,33 @@
+
+graphic-diptych {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border: 4px solid var(--greyHighlight);
+  padding:  10px;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+graphic-diptych text-content {
+  display: block;
+  padding: 10px;
+  border: 2px solid var(--greyHighlight);
+}
+
+graphic-diptych picture {
+  border: 2px solid var(--greyHighlight);
+}
+
+@media (min-width: 660px) {
+  graphic-diptych {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  graphic-diptych :is(picture, text-content) {
+    width: 50%;
+  }
+}

@@ -1,0 +1,16 @@
+/* SETTINGS  ("variables" in our case) */
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+	--greenPrimary: #55d6c2;
+	--greenHighlight: #64FFF1;
+	--greyPrimary: #f2f5ff;
+	--greyHighlight: #C1C3CC;
+	--yellowPrimary: #f5e960;
+	--yellowHighlight: #F6FF63;
+	--purplePrimary: #dfb2f4;
+	--purpleHighlight: #B08CC1;
+	--redPrimary: #ee6055;
+	--greenSecondary: #d3f8e2;
+	
+}
