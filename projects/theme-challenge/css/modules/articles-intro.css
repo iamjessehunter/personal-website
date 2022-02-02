@@ -3,15 +3,34 @@ articles-intro {
   display: block;
   padding-top: 100px;
   padding-bottom: 100px;
-  border: 4px solid var(--purpleHighlight);
 }
 
 articles-intro header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /*  */
   margin-bottom: 40px;
+  padding: 20px;
+  border: var(--border);
+}
+
+articles-intro header :is(h2, p) {
+  border: var(--border);
+  padding: 10px;
 }
 
 articles-intro article-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 1em;
+  display: block;
 }
+
+@media (min-width: 768px) {
+  articles-intro article-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 2em;
+  }
+}
+
+

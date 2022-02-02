@@ -13,16 +13,16 @@
 		<a class="calm-voice" href='#'>Sign-in</a>
 	</nav>
 
-	<nav class='lega-menu'>
+	<nav class='legal-menu'>
 		<a class="calm-voice" href='#'>Legal thing a</a>
 		<a class="calm-voice" href='#'>Legal thing b</a>
 	</nav>
 
 	<nav class='social-menu'>
-		<a class="calm-voice" href='#'>social thing a</a>
-		<a class="calm-voice" href='#'>social thing b</a>
-		<a class="calm-voice" href='#'>social thing c</a>
-		<a class="calm-voice" href='#'>social thing d</a>
+		<a class="calm-voice" href='#'>Social thing a</a>
+		<a class="calm-voice" href='#'>Social thing b</a>
+		<a class="calm-voice" href='#'>Social thing c</a>
+		<a class="calm-voice" href='#'>Social thing d</a>
 	</nav>
 
 </site-map>

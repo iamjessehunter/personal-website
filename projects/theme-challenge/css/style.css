@@ -3,11 +3,10 @@
 @import 'meyer-reset.css';
 @import 'setup.css';
 /*@import 'developer-styles.css'; */
-/* comment this out! */
 
 
 /* SETTINGS */
-@import 'settings.css'; /* variables/ etc */
+@import 'settings.css';
 
 
 /* STRUCTURE */
@@ -29,34 +28,25 @@
 @import 'modules/articles-intro.css';
 @import 'modules/article-card.css';
 @import 'modules/site-map.css';
-/* should everything/nothing be in it's own file? */
-
 
 
 html {
 	background-color: var(--white);
 }
 
-
+@media (min-width: 768px) {
+	html :is(mast-head, graphic-diptych, call-to-action) {
+		border: var(--border);
+	}
+}
 
 /* SITE SECTIONS */
-.site-header {
-
-}
 .site-header inner-column {
 	padding: 14px;
 }
 
 
-
-/* just to show the full-width and section seperation */
-/*section:nth-of-type(odd) {
-	background-color: rgba(0,0,0,.05);
-}*/
-
-
-
-/* OK! SITE STYLES! */
+/* SITE STYLES! */
 .site-header {
   background-color: var(--greenPrimary);
   color: var(--black);
@@ -66,30 +56,33 @@ html {
   background-color: var(--greyPrimary);
 }
 
-
-/* things kinda just start grouping up... and you'll know when something should be grouped into another file - most of the time */
-
-
 .get-involved {
   background-color:  var(--yellowPrimary);
   background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-} /* interesting way to include the whole image in your CSS */
-
+} 
 
 .stuff {
-  background-color: var(--purplePrimary);
+  background-color: var(--creamPrimary);
 }
 
 .help-us {
-  background-color: var(--redPrimary);
+  background-color: var(--bluePrimary);
 }
 
 .site-footer {
 	background-color: var(--greenSecondary);
 	color: var(--black);
+} 
+
+/* Footer-head */
+.foot-head {
+	border: var(--border);
+	padding: 20px;
+	text-align: center;
 }
 
-.site-footer .logo {
-	max-width:  60px;
+.foot-head :is(h3, p) {
+	border: var(--border);
+	padding: 10px;
 }
 

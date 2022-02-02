@@ -2,7 +2,7 @@
 <mast-head>
 
 	<nav class='site-menu'>
-		<a class='logo' href='#'>
+		<a href='#'>
 			<span class="calm-voice">Logo</span>
 		</a>
 
@@ -11,7 +11,7 @@
 		</a>
 
 		<a href='#'>
-			<span class="calm-voice">"Masthead"</span>
+			<span class="calm-voice">Another page</span>
 		</a>
 	</nav>
 

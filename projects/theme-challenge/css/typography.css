@@ -3,16 +3,19 @@
 .intro-voice	{
 	font-family: 'Rubik', Sans-Serif;
 	font-size: 48px;
+	line-height: 1.2;
 }
 
 .loud-voice {
 	font-family: 'Rubik', Sans-Serif;
 	font-size: 36px;
+	line-height: 1.4;
 }
 
 .mild-voice {
 	font-family: 'Rubik', Sans-Serif;
 	font-size: 36px;
+	line-height: 1.2;
 }
 
 .attention-voice	{
@@ -38,5 +41,9 @@ h1 + p {
 }
 
 h2 + p {
+	margin-top: 20px;
+}
+
+h3 + p {
 	margin-top: 20px;
 }

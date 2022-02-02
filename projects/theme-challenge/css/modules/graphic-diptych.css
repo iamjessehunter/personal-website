@@ -4,8 +4,8 @@ graphic-diptych {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  border: 4px solid var(--greyHighlight);
-  padding:  10px;
+  /*  */
+  padding:  60px 20px;
   padding-top: 4vh;
   padding-bottom: 4vh;
 }
@@ -13,14 +13,18 @@ graphic-diptych {
 graphic-diptych text-content {
   display: block;
   padding: 10px;
-  border: 2px solid var(--greyHighlight);
+  border: var(--border);
+}
+
+graphic-diptych text-content h1 {
+  text-align: center;
 }
 
 graphic-diptych picture {
-  border: 2px solid var(--greyHighlight);
+  border: var(--border);
 }
 
-@media (min-width: 660px) {
+@media (min-width: 768px) {
   graphic-diptych {
     display: flex;
     flex-direction: row-reverse;

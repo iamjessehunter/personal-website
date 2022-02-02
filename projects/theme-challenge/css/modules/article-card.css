@@ -1,15 +1,23 @@
 
 article-card {
   display: block;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  /* */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: var(--border);
+}
+
+article-card :is(h3, p, a) {
+  border: var(--border);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 article-card a {
-  margin-top:  20px;
-  color: var(--color);
+  display: inline-block;
+  border: none;
+  padding: 20px;
+  background-color: var(--button);
+  color: var(--white);
 }
