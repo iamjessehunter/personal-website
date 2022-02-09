@@ -41,7 +41,7 @@ about-me a {
 }
 
 about-me a:hover {
-  background-size: 4px 50px;
+  background-size: 4px 50%;
   color: var(--white);
 }
 

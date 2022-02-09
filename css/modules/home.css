@@ -1,5 +1,6 @@
 
 /* LANDING MOD */
+
 landing {
   display: flex;
   flex-direction: column;
@@ -9,21 +10,20 @@ landing {
   padding-top: 4vh;
   padding-bottom: 4vh;
   min-height: 80vh;
-  position: relative;
 }
 
 landing text-content {
   display: block;
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 landing text-content h1 {
-  border-bottom: 2px solid var(--highlight);
+  border-bottom: 2px solid var(--lightdark);
   border-bottom-width: 20%;
 }
 
 landing text-content .mission {
-  border-left: .2px solid var(--highlight);
+  border-left: .2px solid var(--lightdark);
   margin-top: 20px;
 }
 
@@ -37,39 +37,6 @@ landing .bg-img {
     flex-direction: row-reverse;
     align-items: center;
   }
-
-  landing text-content {
-    position: absolute;
-    right: 40%;
-    top: 25%;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  landing picture {
-    width: 100%;
-  }
-
-  landing picture {
-    display: initial;
-  }
-
-  landing .bg-img {
-    display: initial;
-    background-color: var(--secondary);
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    width: 40%;
-    height: 100%;
-  }
-
-  landing .bg-img picture {
-    position: relative;
-    top: 30%;
-  }
-}
 
 
 

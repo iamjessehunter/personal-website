@@ -37,11 +37,8 @@
 
 
 html {
-	background-color: var(--primary);
+	background-color: var(--background);
 }
-
-
-
 
 /*
 	This the area where you work out your styles 
@@ -55,7 +52,7 @@ html {
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0px .5px 5px 0px var(--highlight);
+  box-shadow: 0px .5px 5px 0px var(--lightdark);
 }
 
 .site-header inner-column {
@@ -74,8 +71,8 @@ html {
 
 /* OK! SITE STYLES! */
 .site-header {
-  background-color: var(--primary);
-  color: var(--white);
+  background-color: var(--background);
+  color: var(--primary);
 }
 
 .welcome {

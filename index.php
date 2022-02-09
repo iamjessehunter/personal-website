@@ -15,9 +15,6 @@
 	if ($page == "case-studies") {
 		include "modules/case-studies-intro.php";
 	}
-	if ($page == "contact") {
-		include "modules/contact.php";
-	}
 ?>
 
 
