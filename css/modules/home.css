@@ -1,187 +1,39 @@
 
-/* LANDING MOD */
+/* WELCOME */
 
 landing {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /**/
-  padding-top: 4vh;
-  padding-bottom: 4vh;
-  min-height: 80vh;
+  align-items: flex-start;
 }
 
-landing text-content {
-  display: block;
-  color: var(--primary);
+landing :is(statement, mission) {
+  padding: 8px 14px;
 }
 
-landing text-content h1 {
-  border-bottom: 2px solid var(--lightdark);
-  border-bottom-width: 20%;
+landing statement {
+  background: var(--offwhite);
+  color: var(--color);
 }
 
-landing text-content .mission {
-  border-left: .2px solid var(--lightdark);
-  margin-top: 20px;
+landing statement span {
+  background:
+     linear-gradient(
+       to bottom, var(--highlight) 0%,
+       var(--highlight) 100%
+     );
+  background-position: 0 80%;
+  background-repeat: repeat-x;
+  background-size: 1px 30%;
 }
 
-landing .bg-img {
-  display: none;
+landing mission span {
+  color: var(--color);
+  font-weight: 700;
 }
 
 @media (min-width: 800px) {
-  landing {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-
-
-
-/* NOW MOD */
-now {
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  /*  */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-now header {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  color: var(--secondary);
-  border-bottom: 1px solid var(--highlight);
-  border-top: 1px solid var(--highlight);
-}
-
-
-now .showcase {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 40px;
-  /**/
-  margin-top: 30px;
-}
-
-now .showcase project-card {
-  display: block;
-  min-width: 280px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 10px 10px 0px lightgray;
-  transition: .5s;
-}
-
-now .showcase project-card:hover {
-  transition: 1s;
-  box-shadow: 0 10px 10px 0px var(--secondary);
-}
-
-now .showcase project-card picture img {
-  border-radius: 10px;
-}
-
-now .showcase project-card h2 {
-  color: var(--primary);
-  -webkit-text-stroke: 1px var(--secondary);
-  transition: 2s;
-}
-
-now .showcase project-card h2:hover {
-  transition: 1s;
-  text-decoration: 4px line-through;
-}
-
-now .cta-link {
-  margin-top: 30px;
-  max-width: 140px;
-  text-align: center;
-  background:
-     linear-gradient(
-       to bottom, var(--secondary) 0%,
-       var(--secondary) 100%
-     );
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 4px 4px;
-  transition: background-size .3s;
-}
-
-now .cta-link:hover {
-  background-size: 4px 50px;
-  color: var(--white);
-}
-
-@media (min-width: 680px) {
-  now .showcase {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-
-/* GIFTS */
-.most-necessary {
-  background-color: var(--highlight);
-}
-
-gifts {
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  /*  */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-gifts header {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  color: var(--white);
-  border-bottom: 1px solid var(--secondary);
-  border-top: 1px solid var(--secondary);
-}
-
-gifts .skills-grid {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 40px;
-  /**/
-  margin-top: 30px;
-}
-
-gifts .skills-grid skill-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  /*  */
-  background-color: var(--primary);
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 2px 5px 0px var(--secondary);
-}
-
-gifts .skills-grid skill-card h1 {
-  color: var(--secondary);
-}
-
-@media (min-width: 1060px) {
-  gifts .skills-grid {
-    display: flex;
-    flex-direction: row;
-  }
-  gifts .skills-grid skill-card {
-    justify-content: center;
+  landing :is(statement, mission) {
+    max-width: 800px;
   }
 }

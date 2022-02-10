@@ -1,18 +1,16 @@
 
 <mast-head>
 
-	<nav class='site-menu'>
-		<a class='logo' href='?page=home'>
-			<img src="images/logo.png" alt="#">
-		</a>
-	</nav>
+	<a class='logo intro-voice' href='?page=home'>
+		<span>JESSE HUNTER</span>
+	</a>
 
-	<nav class="user-menu">
-		<a class="calm-voice" href="?page=about">About</a>
-
-		<a class="calm-voice" href='?page=projects'>Projects</a>
-
-		<a class="calm-voice" href='#'>Contact</a>
+	<nav class="site-menu">
+		<a class="nav-voice" href="?page=home">Home</a>
+		<a class="nav-voice" href="?page=about">About</a>
+		<a class="nav-voice" href='?page=projects'>Projects</a>
+		<a class="nav-voice" href='#'>Experiments</a>
+		<a class="nav-voice" href='#'>Contact</a>
 	</nav>
 
 </mast-head>

@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -15,8 +16,6 @@ a {
 
 p a {
 	display: inline;
-	color: blue;
-	text-decoration: underline;
 }
 
 picture {

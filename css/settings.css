@@ -3,9 +3,11 @@
 html {
 	--black: #111111;
 	--white: #FFFFFF;
-	--lightdark: #798897;
-	--background: #FFF8EF;
-	--primary: #016FFF;
-	--secondary: #FF4949;
+	--background: #FFFFFF;
+	--color: #0D5C63;
+	--highlight: #E2C044;
+	--lightdark: #404040;
+	--accent: #7765e3;
+	--offwhite: #FFFBEF;
 }
 

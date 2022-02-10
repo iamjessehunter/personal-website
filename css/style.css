@@ -40,31 +40,31 @@ html {
 	background-color: var(--background);
 }
 
-/*
-	This the area where you work out your styles 
-	If it makes sense, you can break these out into their own files.
-*/
+header {
+	margin-top: 8px;
+}
+
+main {
+	margin-top: 30px;
+}
 
 
 /* SITE SECTIONS */
+
 .site-header {
-	padding: 2px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0px .5px 5px 0px var(--lightdark);
+	
 }
 
-.site-header inner-column {
-	padding: 10px 0 0px;
+@media (min-width: 768px) {
+	.site-header {
+		padding: 2px;
+		position: sticky;
+		top: 0;
+		z-index: 100;
+	}
 }
 
 
-
-/* just to show the full-width and section seperation */
-/*section:nth-of-type(odd) {
-	background-color: rgba(0,0,0,.05);
-}*/
 
 
 
@@ -75,16 +75,11 @@ html {
   color: var(--primary);
 }
 
-.welcome {
-  min-height: 80vh;
-}
-
-
 /* things kinda just start grouping up... and you'll know when something should be grouped into another file - most of the time */
 
 
 .get-involved {
-  background-color:  var(--primary);
+  
 } /* interesting way to include the whole image in your CSS */
 
 .get-involved inner-column {
@@ -105,11 +100,10 @@ html {
 }
 
 .site-footer {
-	background-color: var(--primary);
-	color: var(--highlight);
+	
 }
 
 .site-footer .logo {
-	max-width:  60px;
+	
 }
 

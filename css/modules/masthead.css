@@ -1,49 +1,40 @@
 
 mast-head {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  /*  */
+  color: var(--color);
 }
 
 mast-head nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
-mast-head .logo {
-  max-width: 90px;
+mast-head nav a {
+  background:
+     linear-gradient(
+       to bottom, var(--accent) 0%,
+       var(--accent) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 1px 2px;
+  transition: background-size .3s;
 }
 
-mast-head a {
-  padding: 10px;
+mast-head nav a:hover {
+  background-size: 4px 100%;
+  color: var(--white);
 }
 
-mast-head .user-menu {
-  background-color: var(--background);
-  color: var(--black);
-  border-top: 2px solid var(--lightdark);
-  justify-content: space-evenly;
-  align-items: center;
-  /*  */
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 3;
-}
-
-
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   mast-head {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  mast-head .user-menu {
-    position: initial;
-    background-color: initial;
-    border-top: none;
   }
 }

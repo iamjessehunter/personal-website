@@ -1,48 +1,39 @@
 
-
-.intro-voice	{
-	font-family: rubik;
-	font-size: 48px;
-	line-height: 1.2;
-}
-
-.attention-voice	{
-	font-family: rubik;
-	font-size: 28px;
+.loud-voice {
+	font-family: 'Rubik', sans-serif;
+	font-size: 2em;
+	font-weight: 700;
 	line-height: 1.2;
 }
 
 .mild-voice {
-	font-family: rubik;
-	font-size: 24px;
-	letter-spacing: .2rem;
-	-webkit-text-stroke: .5px var(--black);
-	color: var(--background);
-}
-
-.low-voice {
-	font-family: karla;
-	font-size: 1.2rem;
-	line-height: 1.4;
+	font-family: 'Rubik', sans-serif;
+	font-size: 22px;
 }
 
 .calm-voice {
-	font-family: karla;
-	font-size: 1rem;
+	font-family: 'Karla', sans-serif;
+	font-size: 1.1em;
 	line-height: 1.4;
 }
 
-@media (max-width: 600px) {
+.intro-voice {
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.nav-voice {
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+}
+
+@media (min-width: 768px) {
 	.intro-voice {
-		font-size: 36px;
-	}
-	.attention-voice {
-		font-size: 24px;
-	}
-	.mild-voice {
-		font-size: 20px;
+		font-size: 22px;
 	}
 }
+
 
 /* these would be scoped to section or to an article element */
 /* this is just a loose setting for now */
