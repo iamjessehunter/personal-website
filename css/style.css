@@ -26,6 +26,8 @@
 /* MODULES */
 @import 'modules/masthead.css';
 @import 'modules/home.css';
+@import 'modules/templates/projects-teaser.css';
+/*  */
 @import 'modules/about.css';
 @import 'modules/projects-intro.css';
 @import 'modules/article-card.css';
@@ -51,18 +53,6 @@ main {
 
 /* SITE SECTIONS */
 
-.site-header {
-	
-}
-
-@media (min-width: 768px) {
-	.site-header {
-		padding: 2px;
-		position: sticky;
-		top: 0;
-		z-index: 100;
-	}
-}
 
 
 
@@ -75,35 +65,17 @@ main {
   color: var(--primary);
 }
 
-/* things kinda just start grouping up... and you'll know when something should be grouped into another file - most of the time */
-
-
-.get-involved {
-  
-} /* interesting way to include the whole image in your CSS */
-
-.get-involved inner-column {
-	/*max-width:  700px;*/
+@media (min-width: 768px) {
+	.site-header {
+		padding: 2px;
+		position: sticky;
+		top: 0;
+		z-index: 100;
+	}
 }
 
-.get-involved call-to-action {
-
+.home {
+	background: var(--offwhite);
 }
 
-
-.stuff {
-  
-}
-
-.help-us {
-  
-}
-
-.site-footer {
-	
-}
-
-.site-footer .logo {
-	
-}
 

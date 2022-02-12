@@ -1,22 +1,23 @@
 
-/* WELCOME */
+/* Landing Styles */
 
-landing {
+.landing {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 10px;
+  background: var(--offwhite);
 }
 
-landing :is(statement, mission) {
+.landing :is(header, text-content) {
   padding: 8px 14px;
 }
 
-landing statement {
-  background: var(--offwhite);
+.landing header {
   color: var(--color);
 }
 
-landing statement span {
+.landing header span {
   background:
      linear-gradient(
        to bottom, var(--highlight) 0%,
@@ -27,13 +28,7 @@ landing statement span {
   background-size: 1px 30%;
 }
 
-landing mission span {
+.landing text-content span {
   color: var(--color);
   font-weight: 700;
-}
-
-@media (min-width: 800px) {
-  landing :is(statement, mission) {
-    max-width: 800px;
-  }
 }
