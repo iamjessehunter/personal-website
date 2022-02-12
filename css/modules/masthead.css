@@ -18,8 +18,8 @@ mast-head nav {
 mast-head nav a {
   background:
      linear-gradient(
-       to bottom, var(--accent) 0%,
-       var(--accent) 100%
+       to bottom, var(--highlight) 0%,
+       var(--highlight) 100%
      );
   background-position: 0 100%;
   background-repeat: repeat-x;

@@ -32,13 +32,10 @@
 	.loud-voice {
 		font-size: 2.2em;
 		width: clamp(20ch, 90vw, 40ch);
-
 	}
-
 	.intro-voice {
 		font-size: 22px;
 	}
-	
 	.calm-voice {
 		font-size: 1.2em;
 		width: clamp(20ch, 90vw, 55ch);
