@@ -1,34 +1,29 @@
 <?php
 
-$database = [ // an associative array (Array of key:value pairs)
+$database = [ 
 	[
-		"heading" => "Ultra Responsive Layouts",
+		"heading" => "DAILYS",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"site" => "Visit Site",
-		"case" => "Read Case Study"
+		"site" => "Visit Project",
 	],
 	[
-		"heading" => "PHP Forms",
+		"heading" => "BASE",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"site" => "Visit Site",
-		"case" => "Read Case Study"
+		"site" => "Visit Project",
 	],
 	[
-		"heading" => "Codepens",
+		"heading" => "PHP FORMS",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"site" => "Visit Site",
-		"case" => "Read Case Study"
+		"site" => "Visit Project",
 	],
 	[
-		"heading" => "SVG Graphics",
+		"heading" => "THEMING with JAVASCRIPT",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"site" => "Visit Site",
-		"case" => "Read Case Study"
+		"site" => "Visit Project",
 	],
 	[
 		"heading" => "Wordpress Site",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"site" => "Visit Site",
-		"case" => "Read Case Study"
+		"site" => "Visit Project",
 	],
 ];

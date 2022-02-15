@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1272 918" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-2431.92,-84.9167)">
+        <g transform="matrix(0.260414,0,0,0.221596,2727.12,-450.062)">
+            <g id="desktop" transform="matrix(5.20356,0,0,6.11508,-1619.93,-21492.5)">
+                <g id="background" transform="matrix(1.45186,0,0,0.844612,-465.419,607.724)">
+                    <path d="M1030,3958.88C1030,3932.45 1017.52,3911 1002.15,3911L413.854,3911C398.481,3911 386,3932.45 386,3958.88L386,4661.12C386,4687.55 398.481,4709 413.854,4709L1002.15,4709C1017.52,4709 1030,4687.55 1030,4661.12L1030,3958.88Z" style="fill:url(#_Linear1);stroke:rgb(80,80,80);stroke-width:2.59px;"/>
+                </g>
+                <g id="browser-buttons">
+                    <g id="button-1" transform="matrix(1,0,0,1,-276,-2)">
+                        <ellipse cx="419.5" cy="3936" rx="9.5" ry="9" style="fill:white;"/>
+                    </g>
+                    <g id="button-2" transform="matrix(1,0,0,1,-254,-2)">
+                        <ellipse cx="419.5" cy="3936" rx="9.5" ry="9" style="fill:white;"/>
+                    </g>
+                    <g id="button-3" transform="matrix(1,0,0,1,-232,-2)">
+                        <ellipse cx="419.5" cy="3936" rx="9.5" ry="9" style="fill:white;"/>
+                    </g>
+                </g>
+                <g id="navbar" transform="matrix(0.554196,0,0,0.376564,-1176.43,3890.41)">
+                    <rect x="2592" y="210" width="1025" height="100" style="fill:none;"/>
+                    <g id="logo" transform="matrix(1.2983,0,0,1.86413,-852.837,-28.3683)">
+                        <ellipse cx="2686" cy="154.5" rx="20" ry="20.5" style="stroke:black;stroke-width:4.41px;"/>
+                    </g>
+                    <g id="nav-links" transform="matrix(1.80442,0,0,2.65559,2122.77,-10331.3)">
+                        <g id="nav" transform="matrix(0.737964,0,0,0.737964,-1659.88,3880.07)">
+                            <rect x="3149" y="140" width="39" height="12" style="stroke:black;stroke-width:4.25px;"/>
+                        </g>
+                        <g id="nav1" serif:id="nav" transform="matrix(0.737964,0,0,0.737964,-1619.29,3880.07)">
+                            <rect x="3149" y="140" width="39" height="12" style="stroke:black;stroke-width:4.25px;"/>
+                        </g>
+                        <g id="nav2" serif:id="nav" transform="matrix(0.737964,0,0,0.737964,-1580.18,3880.07)">
+                            <rect x="3149" y="140" width="39" height="12" style="stroke:black;stroke-width:4.25px;"/>
+                        </g>
+                        <g id="nav3" serif:id="nav" transform="matrix(0.737964,0,0,0.737964,-1542.54,3880.07)">
+                            <rect x="3149" y="140" width="39" height="12" style="stroke:black;stroke-width:4.25px;"/>
+                        </g>
+                    </g>
+                    <rect x="2592" y="210" width="1025" height="100" style="fill:none;stroke:black;stroke-width:3.39px;"/>
+                </g>
+                <g id="header-box" transform="matrix(0.721707,0,0,0.405313,-1710.54,4080.23)">
+                    <rect x="2746" y="727" width="383" height="85" style="fill:none;stroke:black;stroke-width:2.63px;"/>
+                </g>
+                <g id="paragraph-box" transform="matrix(0.523255,0,0,1.30722,-1166.64,3322.71)">
+                    <rect x="2748" y="857" width="712" height="38" style="fill:none;stroke:black;stroke-width:1.54px;"/>
+                </g>
+                <g id="button" transform="matrix(0.275545,0,0,0.691945,-483.704,3904.95)">
+                    <rect x="2737" y="898" width="378" height="44" style="stroke:black;stroke-width:5.95px;"/>
+                </g>
+                <g id="header-box1" serif:id="header-box" transform="matrix(0.8012,0,0,0.8012,-1926.32,3798.04)">
+                    <rect x="2743" y="387" width="239" height="195" style="fill:none;stroke:black;stroke-width:2.01px;"/>
+                </g>
+                <g id="image-box" transform="matrix(0.8012,0,0,0.8012,-1938.92,3768.2)">
+                    <rect x="3059" y="357" width="386" height="316" style="fill:none;stroke:black;stroke-width:2.01px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.22465e-16,-2,2,1.22465e-16,675,3961)"><stop offset="0" style="stop-color:rgb(255,239,235);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(150,150,150);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

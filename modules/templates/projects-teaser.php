@@ -1,33 +1,41 @@
 
 <section class="off-the-press">
 	<inner-column>
-		
-		<header>
-			<h3 class="intro-voice">PROJECTS</h3>
+		<project-teaser>
+			<header>
+				<h3 class="soft-voice">Projects</h3>
 
-			<h1 class="loud-voice">Latest Works</h1>
-		</header>
-		
-		<text-content>
-			<div class="project-card">
-				<picture>
-					<img src="images/responsive-layouts.svg">
-				</picture>
-
-				<h2 class="mild-voice">DAILYS</h2>
-				<p class="calm-voice">A responsive layout collection from modules and sections taken from websites in the wild. They are either responsive by nature or made responsive.</p>
-			</div>
-
-			<div class="project-card">
-				<picture>
-					<img src="images/responsive-layouts.svg">
-				</picture>
-
-				<h2 class="mild-voice">DAILYS</h2>
-				<p class="calm-voice">A responsive layout collection from modules and sections taken from websites in the wild. They are either responsive by nature or made responsive.</p>
-			</div>
+				<h1 class="topic loud-voice">Latest Works</h1>
+			</header>
 			
-		</text-content>
+			<project-grid>
+				<project-card>
+					<a href="#">
+						<picture>
+							<img src="images/responsive-layouts.svg">
+						</picture>
+					</a>
+
+					<a class="topic mild-voice" href="https://peprojects.dev/alpha-1/Jhunt/responsive-layouts/" target="_blank">DAILYS</a>
+					<p class="calm-voice">A responsive layout collection from modules and sections taken from websites in the wild.</p>
+					<a class="view link-voice" href="https://peprojects.dev/alpha-1/Jhunt/responsive-layouts/" target="_blank">View Project</a>
+				</project-card>
+
+				<project-card>
+					<a href="#">
+						<picture>
+							<img src="images/theme-challenge.svg">
+						</picture>
+					</a>
+
+					<a class="topic mild-voice" href="#">THEME CHALLENGE</a>
+					<p class="calm-voice">A boilerplate to conducting a basic website.</p>
+					<a class="view link-voice" href="#">View Project</a>
+				</project-card>
+			</project-grid>
+
+			<a class="showcase link-voice" href='?page=projects'>Visit All Projects</a>
+		</project-teaser>
 
 	</inner-column>
 </section>

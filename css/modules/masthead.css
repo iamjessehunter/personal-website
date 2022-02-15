@@ -18,12 +18,12 @@ mast-head nav {
 mast-head nav a {
   background:
      linear-gradient(
-       to bottom, var(--highlight) 0%,
-       var(--highlight) 100%
+       to bottom, var(--color) 0%,
+       var(--color) 100%
      );
   background-position: 0 100%;
   background-repeat: repeat-x;
-  background-size: 1px 2px;
+  background-size: .5px 1px;
   transition: background-size .3s;
 }
 

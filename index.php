@@ -12,11 +12,6 @@
 	if ($page == "projects") {
 		include "modules/projects-intro.php";
 	}
-	if ($page == "case-studies") {
-		include "modules/case-studies-intro.php";
-	}
 ?>
-
-
 
 <?php include('footer.php'); ?>

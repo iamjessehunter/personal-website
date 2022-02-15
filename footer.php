@@ -4,11 +4,11 @@
 
 
 		<footer class='site-footer'>
-		<inner-column>
+			<inner-column>
 
 			<?php include('modules/site-map.php'); ?>
 
-		</inner-column>
+			</inner-column>
 		</footer>
 
 	</body>

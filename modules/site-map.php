@@ -1,12 +1,15 @@
 
 <site-map>
 
-	<nav class="site-menu">
-		<a class="logo" href="#">
-			Jesse Hunter
-		</a>
-		<a href="?page=home">Home</a>
-		<a href="404.php">404 error</a>
+	<a class='logo intro-voice' href='?page=home'>
+		<span>JH</span>
+	</a>
+
+	<nav class="footer-menu">
+		<a class="nav-voice" href="#">Style-Guide</a>
+		<a class="nav-voice" href="#">Github</a>
+		<a class="nav-voice" href='#'>Linkedin</a>
+		<a class="nav-voice" href='#'>Gmail</a>
 	</nav>
 
 </site-map>

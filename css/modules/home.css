@@ -1,23 +1,16 @@
 
 /* Landing Styles */
-
-.landing {
+landing {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 10px;
-  background: var(--offwhite);
 }
 
-.landing :is(header, text-content) {
-  padding: 8px 14px;
-}
-
-.landing header {
+landing header {
   color: var(--color);
 }
 
-.landing header span {
+landing header span {
   background:
      linear-gradient(
        to bottom, var(--highlight) 0%,
@@ -28,7 +21,12 @@
   background-size: 1px 30%;
 }
 
-.landing text-content span {
+landing text-content .calm-voice {
+  margin-top: 10px;
+}
+
+landing text-content span {
   color: var(--color);
   font-weight: 700;
 }
+

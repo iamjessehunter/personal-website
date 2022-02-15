@@ -1,15 +1,21 @@
 
 site-map {
-  display: block;
-  /* */
-  /* */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px;
+}
+
+site-map .footer-menu {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 10px;
 }
 
-site-map .site-menu .logo {
-  max-width:  70px;
+site-map .logo {
+  font-size: 24px;
 }
-

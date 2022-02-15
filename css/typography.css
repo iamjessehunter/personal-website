@@ -1,50 +1,66 @@
 
+/* Header-One */
 .loud-voice {
 	font-family: 'Rubik', sans-serif;
-	font-size: 2em;
+	font-size: 30px;
 	font-weight: 700;
 	line-height: 1.2;
 }
 
+/* Header-Two */
 .mild-voice {
 	font-family: 'Rubik', sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 }
 
+/* Header-Three */
+.soft-voice {
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+}
+
+/* Body Copy */
 .calm-voice {
 	font-family: 'Karla', sans-serif;
-	font-size: 1.1em;
-	line-height: 1.4;
+	font-size: 1em;
+	line-height: 1.3;
 }
 
+/* Logo Copy */
 .intro-voice {
 	font-family: 'Rubik', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 }
 
+/* Navbar Copy */
 .nav-voice {
 	font-family: 'Rubik', sans-serif;
 	font-size: 16px;
 }
 
+/* Link Copy */
+.link-voice {
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+}
+
 @media (min-width: 768px) {
 	.loud-voice {
-		font-size: 2.2em;
+		font-size: 36px;
 		width: clamp(20ch, 90vw, 40ch);
 	}
+	.mild-voice {
+		font-size: 28px;
+	}
 	.intro-voice {
-		font-size: 22px;
+		font-size: 20px;
 	}
 	.calm-voice {
 		font-size: 1.2em;
 		width: clamp(20ch, 90vw, 55ch);
 	}
-}
-
-
-/* these would be scoped to section or to an article element */
-/* this is just a loose setting for now */
-p + p {
-	margin-top: 14px;
+	.link-voice {
+		font-size: 18px;
+	}
 }

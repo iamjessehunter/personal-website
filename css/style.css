@@ -4,11 +4,9 @@
 @import 'setup.css';
 
 @import 'developer-styles.css'; 
-/* comment this ^ out - when you are ready */
-
 
 /* SETTINGS */
-@import 'settings.css'; /* variables/ etc */
+@import 'settings.css'; 
 
 
 /* STRUCTURE */
@@ -27,16 +25,12 @@
 @import 'modules/masthead.css';
 @import 'modules/home.css';
 @import 'modules/templates/projects-teaser.css';
+@import 'modules/templates/experiments-intro.css';
 /*  */
 @import 'modules/about.css';
 @import 'modules/projects-intro.css';
 @import 'modules/article-card.css';
 @import 'modules/site-map.css';
-@import 'modules/case-studies-intro.css';
-@import 'modules/contact.css';
-/* should everything/nothing be in it's own file? */
-
-
 
 html {
 	background-color: var(--background);
@@ -50,19 +44,10 @@ main {
 	margin-top: 30px;
 }
 
-
-/* SITE SECTIONS */
-
-
-
-
-
-
-
-/* OK! SITE STYLES! */
+/* Page Style */
 .site-header {
-  background-color: var(--background);
-  color: var(--primary);
+	background: var(--background);
+	color: var(--primary);
 }
 
 @media (min-width: 768px) {
@@ -75,7 +60,29 @@ main {
 }
 
 .home {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.projects-intro {
 	background: var(--offwhite);
 }
 
+.site-footer {
+	background: var(--color);
+	color: var(--white);
+}
 
+
+/* Template Styles */
+.off-the-press {
+	background: var(--offwhite);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.experiment-pens {
+	background: var(--offwhite);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
