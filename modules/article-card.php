@@ -1,22 +1,15 @@
 
-<?php
-	// you could simplify the $variables up here if you want....
-	// example
-	$thumbnail = $article["thumbnail"];
-	// it may or may not - be more readable
-?>
-
-
 <article-card>
 
-	<h2 class='intro-voice' href="#"><?=$article["heading"]?></h2>
+	<picture>
+		<img src="<?=$article["image"]?>">
+	</picture>
 
-	<p class='low-voice'><?=$article["description"]?></p>
+	<a class='topic mild-voice' href="#"><?=$article["heading"]?></a>
 
-	<div class="links">
-		<a class="visit calm-voice" href="#"><?=$article["site"]?></a>
+	<p class='calm-voice'><?=$article["description"]?></p>
 
-		<a class="read calm-voice" href="#"><?=$article["case"]?></a>
-	</div>
+	<a class="visit calm-voice" href="#"><?=$article["site"]?></a>
+
 	
 </article-card>

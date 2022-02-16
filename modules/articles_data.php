@@ -2,27 +2,32 @@
 
 $database = [ 
 	[
+		"image" => "images/responsive-layouts.svg",
 		"heading" => "DAILYS",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
 		"site" => "Visit Project",
 	],
 	[
+		"image" => "images/theme-challenge.svg",
 		"heading" => "BASE",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
 		"site" => "Visit Project",
 	],
 	[
+		"image" => "images/theme-challenge.svg",
 		"heading" => "PHP FORMS",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
 		"site" => "Visit Project",
 	],
 	[
+		"image" => "images/theme-challenge.svg",
 		"heading" => "THEMING with JAVASCRIPT",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
 		"site" => "Visit Project",
 	],
 	[
-		"heading" => "Wordpress Site",
+		"image" => "images/theme-challenge.svg",
+		"heading" => "REACT PROJECT",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
 		"site" => "Visit Project",
 	],

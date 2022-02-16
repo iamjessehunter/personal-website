@@ -33,7 +33,7 @@
 @import 'modules/site-map.css';
 
 html {
-	background-color: var(--background);
+	background-color: var(--offwhite);
 }
 
 header {
@@ -46,7 +46,7 @@ main {
 
 /* Page Style */
 .site-header {
-	background: var(--background);
+	background: var(--offwhite);
 	color: var(--primary);
 }
 
@@ -65,7 +65,8 @@ main {
 }
 
 .projects-intro {
-	background: var(--offwhite);
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .site-footer {
@@ -76,13 +77,12 @@ main {
 
 /* Template Styles */
 .off-the-press {
-	background: var(--offwhite);
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
 
 .experiment-pens {
-	background: var(--offwhite);
+	background: var(--background);
 	padding-top: 60px;
 	padding-bottom: 60px;
 }

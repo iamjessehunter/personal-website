@@ -1,5 +1,5 @@
 
-<section class='projects-page'>
+<section class='projects-intro'>
   <inner-column>
 
     <articles-intro>

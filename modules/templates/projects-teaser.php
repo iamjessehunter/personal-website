@@ -28,9 +28,9 @@
 						</picture>
 					</a>
 
-					<a class="topic mild-voice" href="#">THEME CHALLENGE</a>
+					<a class="topic mild-voice" href="https://peprojects.dev/alpha-1/Jhunt/projects/theme-challenge/" target="_blank">THEME CHALLENGE</a>
 					<p class="calm-voice">A boilerplate to conducting a basic website.</p>
-					<a class="view link-voice" href="#">View Project</a>
+					<a class="view link-voice" href="https://peprojects.dev/alpha-1/Jhunt/projects/theme-challenge/" target="_blank">View Project</a>
 				</project-card>
 			</project-grid>
 

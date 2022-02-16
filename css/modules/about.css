@@ -1,68 +1,18 @@
 
 about-me {
   display: block;
-  /* */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 about-me header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--secondary);
-}
-
-about-me header h2 {
-  border-bottom: .5px solid var(--highlight);
-}
-
-about-me .info {
-  border-right: .5px solid var(--highlight);
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-about-me a {
-  margin-top: 30px;
-  max-width: 120px;
   text-align: center;
-  background:
-     linear-gradient(
-       to bottom, var(--secondary) 0%,
-       var(--secondary) 100%
-     );
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 4px 4px;
-  transition: background-size .3s;
 }
 
-about-me a:hover {
-  background-size: 4px 50%;
-  color: var(--white);
+about-me .topic {
+  color: var(--color)
 }
 
-about-me content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-about-me content .images {
-  min-width: 300px;
-}
-
-@media (min-width: 760px) {
-  about-me content {
-    flex-direction: row;
-    gap: 50px;
-  }
-
-  about-me content .images {
-    min-width: 400px;
+@media (min-width: 660px) {
+  about-me header {
+    text-align: initial;
   }
 }
