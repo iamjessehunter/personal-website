@@ -6,7 +6,7 @@
 			<header>
 				<h2 class="mild-voice">WELCOME,</h2>
 
-				<h1 class="loud-voice">I'm Jesse and I am looking for a full-time position with a <span>creative and standout team!</span></h1>
+				<h1 class="loud-voice">I'm Jesse and I am looking for a full-time position with&nbsp;a <span>creative and standout team!</span></h1>
 			</header>
 
 			<text-content>
