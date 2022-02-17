@@ -1,0 +1,329 @@
+
+
+/* SOLIDWORKS */
+.solidworks {
+	--primary: #EDEDED;
+	--secondary: #B0A8BA;
+	--tertiary: #6A6A6A;
+	--light: #FFFFFF;
+	--lightdark: #D3D3D3;
+	--dark: black;
+
+	min-height: 50vh;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--lightdark);
+}
+
+header-solidworks {
+	display: block;
+	margin-top: 10px;
+}
+
+.site-header {
+  padding: 5px;
+  background-color: var(--dark);
+}
+
+.site-menu a, .logo-menu a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  color: var(--light);
+}
+
+.logo-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-menu span {
+	font-weight: 700;
+}
+
+.site-menu {
+	background-color: var(--dark);
+}
+
+.site-menu a {
+	color: var(--light);
+}
+
+.logo-menu .toggle {
+	border: 2px solid var(--light);
+	background-color: inherit;
+	color: var(--light);
+	border-radius: 20px;
+	width: 100px;
+	height: 40px;
+	padding: 0px 5px;
+}
+
+
+
+@media (max-width: 599px) { /* only if small! */
+  .site-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100vh;
+    /* */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* */
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-100%, 0); /* another fun option */
+    transform: scale(.5);
+    /* */
+    transition: 0s;
+  }
+  .site-menu a {
+    min-width: 200px;
+    text-align: center;
+  }
+  body.small-menu-open .site-menu {
+    opacity: 1;
+    pointer-events: initial;
+    transform: translate(0, 0); /* another fun option */
+    transform: scale(1);
+    transition: .2s;
+  }
+}
+
+
+
+@media (min-width: 600px) {
+  .toggle {
+    display: none;
+  }
+
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .site-menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+
+
+/* SETUP */
+grid-wrapper {
+	display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  text-align: left;
+}
+
+.mod {
+	position: relative;
+	background-color: var(--light);
+	color: var(--dark);
+
+	transition: 0.5s ease-in-out;
+	padding: 20px;
+}
+
+.mod-3,
+.mod-6,
+.mod-9 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.mod h3,
+.mod p,
+.mod a  {
+	margin-top: 10px;
+}
+
+/* GRID-SETUP */
+.mod-1 {
+	grid-column: 1 / 6;
+  grid-row: 1 / 2;
+  background-color: #E85795;
+}
+
+.mod-2 {
+	grid-column: 6 / 11;
+  grid-row: 1 / 2;
+  background-color: #F8E927;
+}
+
+.mod-3 {
+	grid-column: 1 / 11;
+  grid-row: 2 / 5;
+}
+
+.mod-4 {
+	grid-column: 1 / 6;
+  grid-row: 5 / 6;
+  background-color: #00B2E0;
+}
+
+.mod-5 {
+	grid-column: 6 / 11;
+  grid-row: 5 / 6;
+  background-color: #DE6127;
+}
+
+.mod-6 {
+	grid-column: 1 / 11;
+  grid-row: 6 / 9;
+}
+
+.mod-7 {
+	grid-column: 1 / 6;
+  grid-row: 9 / 10;
+  background-color: #2F8C77;
+}
+
+.mod-8 {
+	grid-column: 6 / 11;
+  grid-row: 9 / 10;
+  background-color: #AFA0CD;
+}
+
+.mod-9 {
+	grid-column: 1 / 11;
+  grid-row: 10 / 13;
+}
+
+/* HOVER STATES */
+.mod:hover {
+	background-color: var(--dark);
+	color: var(--light);
+	transition: .5s;
+}
+
+
+/* BREAKPOINTS */
+@media (min-width: 760px) {
+	.mod-8 {
+		grid-column: 1 / 6;
+    grid-row: 10 / 11;
+	}
+	.mod-9 {
+		grid-column: 6 / 11;
+    grid-row: 9 / 11;
+	}
+
+	/* HOVER STATES */
+	.mod-1:hover {
+		box-shadow: -10px 0px 0px 0px var(--light);
+	}
+	.mod-2:hover {
+		box-shadow: 10px 0px 0px 0px var(--light);
+	}
+	.mod-4:hover,
+	.mod-7:hover {
+		box-shadow: -10px 0px 0px 0px var(--light);
+	}
+	.mod-5:hover {
+		box-shadow: 10px 0px 0px 0px var(--light);
+	}
+	.mod-9:hover {
+		box-shadow: 0px 10px 0px 0px var(--light);
+	}
+	.mod-8:hover {
+		box-shadow: -10px 10px 0px 0px var(--light);
+	}
+	.mod-9:hover {
+		box-shadow: 10px 10px 0px 0px var(--light);
+	}
+}
+
+/* LARGE SCREEN */
+
+@media (min-width: 1000px) {
+	.solidworks {
+		min-height: 70vh;
+	}
+	.mod-1 {
+		grid-column: 1 / 4;
+  	grid-row: 1 / 2
+	}
+	.mod-2 {
+		grid-column: 1 / 4;
+	  grid-row: 2 / 3;
+	}
+	.mod-3 {
+		grid-column: 4 / 8;
+	  grid-row: 1 / 3;
+	}
+	.mod-4 {
+		grid-column: 8 / 11;
+	  grid-row: 1 / 2
+	}
+	.mod-5 {
+		grid-column: 8 / 11;
+	  grid-row: 2 / 3;
+	}
+	.mod-6 {
+		grid-column: 1 / 6;
+	  grid-row: 3 / 5;
+	}
+	.mod-7 {
+		grid-column: 6 / 8;
+	  grid-row: 3 / 4
+	}
+	.mod-8 {
+		grid-column: 6 / 8;
+ 	  grid-row: 4 / 5;
+	}
+	.mod-9 {
+		grid-column: 8 / 11;
+	  grid-row: 3 / 5;
+	}
+
+	/* HOVER STATES */
+	.mod-1:hover {
+		transform: translate(-15px, 0px) scale(1.0) rotate(0deg);
+	}
+	.mod-2:hover {
+		transform: translate(-15px, 0px) scale(1.0) rotate(0deg);
+		box-shadow: -10px 0px 0px 0px var(--light);
+	}
+	.mod-4:hover {
+		transform: translate(15px, 0px) scale(1.0) rotate(0deg);
+		box-shadow: 10px 0px 0px 0px var(--light);
+	}
+	.mod-5:hover {
+		transform: translate(15px, 0px) scale(1.0) rotate(0deg);
+	}
+	.mod-6:hover {
+		transform: translate(-15px, 15px) scale(1.0) rotate(0deg);
+		box-shadow: -10px 10px 0px 0px var(--light);
+	}
+	.mod-7:hover {
+		box-shadow: initial;
+	}
+	.mod-8:hover {
+		transform: translate(0px, 15px) scale(1.0) rotate(0deg);
+		box-shadow: 0px 10px 0px 0px var(--light);
+	}
+	.mod-9:hover {
+		transform: translate(15px, 15px) scale(1.0) rotate(0deg);
+	}
+}

@@ -1,0 +1,21 @@
+
+/* HEADER */
+header {
+	background-color: var(--secondary);
+	min-height: 5vh;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+	box-shadow: 0px 5px 10px 0px var(--tertiary);
+}
+
+.site-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 10px;
+	color: var(--tertiary);
+}

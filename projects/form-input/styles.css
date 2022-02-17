@@ -1,0 +1,49 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #B3B3B4;
+}
+
+form {
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 400px;
+	background-color: #3E454C; 
+	padding: 20px;
+}
+
+.title {
+	font-size: 36px;
+	font-family: oswald;
+	color: #FFD661;
+}
+
+.field .guests {
+	display: flex; 
+	flex-direction: column;
+	max-width: 200px;
+}
+
+.field label {
+	font-size: 22px;
+	font-family: oswald;
+	color: #FFD661;
+	margin-bottom: 6px;
+}
+
+button[type="submit"], .field + .field {
+	margin-top: 20px;
+}
+
+button[name="go"] {
+	font-size: 18px;
+	font-family: oswald;
+	color: #FFD661;
+	background-color: #7C8A98;
+	max-width: 80px;
+}

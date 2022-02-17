@@ -1,0 +1,61 @@
+
+/* RESET */
+@import 'meyer-reset.css';
+@import 'setup.css';
+@import 'typography.css';
+
+@import 'modules/site-header.css';
+@import 'modules/call-to-action.css';
+@import 'modules/products.css';
+@import 'modules/delivery.css';
+@import 'modules/news.css';
+@import 'modules/updates.css';
+@import 'modules/footer.css';
+
+/* STRUCTURE */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+inner-column {
+	display:  block;
+	max-width: 1400px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px 5px;
+}
+
+/* CUSTOM PROPERTIES */
+html {
+	--black: #000000;
+	--white: #FFFFFF;
+	--primary: #006241;
+	--secondary: #1E3932;
+	--highlight: #D4E9E2;
+	--cream: #F2F0EB;
+	--lightdark: #C7C7C7;
+}
+
+/* HEADER */
+header {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 5px var(--lightdark);
+}
+
+/* MAIN */
+main {
+	max-width: 1400px;
+	min-height: 100vh;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+
+
+

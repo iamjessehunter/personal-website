@@ -1,0 +1,20 @@
+
+/* Base Styles */
+.site-header {
+	background: #B2E0DF;
+}
+
+.site-header p {
+	margin-top: 10px;
+}
+
+.site-header a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+.site-header span {
+	font-weight: 700;
+	color: #46515F;
+}

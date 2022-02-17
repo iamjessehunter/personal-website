@@ -1,0 +1,35 @@
+
+site-map {
+  padding-top: 40px;
+  padding-bottom: 120px;
+  /* */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+site-map :is(.site-menu, .user-menu, .legal-menu, .social-menu) {
+  border: var(--border);
+  padding: 20px;
+  /*  */ 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+site-map a {
+  border: var(--border);
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  site-map {
+    flex-wrap: nowrap;
+    border: var(--border);
+    padding: 20px;
+    margin-top: 40px;
+  }
+}
+

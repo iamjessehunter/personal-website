@@ -1,0 +1,38 @@
+
+cta-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*  */
+	background-color: var(--primary);
+}
+
+.welcome-image .winter2022 {
+	width: 100%;
+}
+
+.welcome-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+	/*  */
+	color: var(--white);
+	padding: 20px;
+	text-align: center;
+}
+
+.welcome-text .new-user {
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 10px;
+	text-align: center;
+	width: 100px;
+}
+
+@media (min-width: 768px) {
+	cta-wrapper {
+		flex-direction: row-reverse;
+	}
+}
