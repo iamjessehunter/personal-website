@@ -38,22 +38,69 @@ project-teaser .topic {
 }
 
 project-card .view {
-	transition: .5s;
+	position: relative;
 }
 
-project-card .view:hover {
-	transition: .5s;
-	text-decoration: 2px line-through var(--accent);
+project-card .view::before {
+	content: '';
+	position: absolute;
+	width: 45%;
+	height: 2px;
+	border-radius: 2px;
+	background-color: var(--accent);
+	bottom: 0;
+	left: 0;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: transform .3s ease-in-out;
 }
+
+project-card .view:hover::before {
+	transform-origin: left;
+	transform: scaleX(1);
+}
+
 
 project-teaser .showcase {
 	display: block;
 	margin-top: 40px;
-	background: var(--color);
-	color: var(--white);
-	padding: 8px;
-	max-width: 150px;
-	text-align: center;
+}
+
+project-teaser .showcase {
+	background-image: linear-gradient(
+	 to right,
+	 var(--accent),
+	 var(--accent) 50%,
+	 #000 50%
+	);
+	background-size: 200% 100%;
+	background-position: -100%;
+	display: inline-block;
+	padding: 5px 0;
+	position: relative;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all 0.3s ease-in-out;
+}
+
+project-teaser .showcase:before {
+	content: '';
+	background: var(--accent);
+	display: block;
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	width: 0;
+	height: 3px;
+	transition: all 0.3s ease-in-out;
+}
+
+project-teaser .showcase:hover {
+	background-position: 0;
+}
+
+project-teaser .showcase:hover::before {
+	width:100%;
 }
 
 

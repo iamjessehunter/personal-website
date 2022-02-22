@@ -9,7 +9,6 @@
 
 	<p class='calm-voice'><?=$article["description"]?></p>
 
-	<a class="visit calm-voice" href="#"><?=$article["site"]?></a>
-
+	<a class="visit calm-voice" href="<?=$article["link"]?>" target="_blank"><?=$article["site"]?></a>
 	
 </article-card>

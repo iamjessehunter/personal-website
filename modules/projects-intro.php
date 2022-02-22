@@ -10,7 +10,7 @@
       </header>
 
       <article-grid>
-        <?php include('articles_data.php'); ?><!-- acting as an example database -->
+        <?php include('articles_data.php'); ?>
 
         <?php foreach ($database as $article) { ?> 
           <?php include('article-card.php'); ?>

@@ -10,7 +10,6 @@
 		<a class="nav-voice" href="?page=about">About</a>
 		<a class="nav-voice" href='?page=projects'>Projects</a>
 		<a class="nav-voice" href='#'>Experiments</a>
-		<a class="nav-voice" href='#'>Contact</a>
 	</nav>
 
 </mast-head>
