@@ -6,21 +6,17 @@ article-card {
   gap: 6px;
   /*  */
   background: var(--lightdark);
-  padding: 20px 14px;
+  padding: 20px;
+  box-shadow: -0px 5px 5px 0px var(--lift);
 }
 
 article-card picture {
   max-width: 300px;
 }
 
-article-card .visit {
-  transition: .5s;
-}
-
-article-card .visit:hover {
-  transition: .5s;
-  text-decoration: 2px line-through var(--accent);
-}
+project-card text-content {
+  margin-top: 10px;
+} 
 
 @media (min-width: 660px) {
   article-card {

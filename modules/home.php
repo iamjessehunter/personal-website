@@ -25,4 +25,3 @@
 
 <?php include('modules/templates/experiments-intro.php'); ?>
 
-<?php include('modules/templates/connect.php'); ?>

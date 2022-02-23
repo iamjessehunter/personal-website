@@ -42,8 +42,8 @@
 
 /* Link Copy */
 .link-voice {
-	font-family: 'Karla', sans-serif;
-	font-size: 16px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -62,6 +62,6 @@
 		width: clamp(20ch, 90vw, 55ch);
 	}
 	.link-voice {
-		font-size: 18px;
+		font-size: 16px;
 	}
 }

@@ -26,23 +26,25 @@
 @import 'modules/home.css';
 @import 'modules/templates/projects-teaser.css';
 @import 'modules/templates/experiments-intro.css';
-@import 'modules/templates/connect.css';
 /*  */
 @import 'modules/about.css';
 @import 'modules/projects-intro.css';
 @import 'modules/article-card.css';
 @import 'modules/site-map.css';
 
-html {
-	background-color: var(--offwhite);
+
+body {
+	position: relative;
 }
 
 header {
-	margin-top: 8px;
+
 }
 
 main {
-	margin-top: 30px;
+	position: relative;
+	z-index: 3;
+	background-color: var(--offwhite);
 }
 
 /* Page Style */
@@ -78,6 +80,11 @@ main {
 .site-footer {
 	background: var(--color);
 	color: var(--white);
+	position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 
@@ -95,6 +102,7 @@ main {
 
 .talk-to-me {
 	background: var(--color);
+	color: var(--black);
 	padding-top: 60px;
 	padding-bottom: 60px;
 }

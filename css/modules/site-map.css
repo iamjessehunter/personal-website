@@ -12,10 +12,9 @@ site-map {
 site-map .footer-menu {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   gap: 10px;
 }
 
 site-map .logo {
-  font-size: 24px;
+  font-size: 36px;
 }

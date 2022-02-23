@@ -16,6 +16,5 @@
 
 
 		<main class='page-content'>
-			<!-- STUFF -->
 			
 			
