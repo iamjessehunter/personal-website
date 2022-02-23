@@ -1,20 +1,20 @@
 
 /* Experiments-Intro Setup */
-experiment-teaser {
+.experiment-teaser {
 	display: block;
 	color: var(--black);
 }
 
-experiment-teaser header {
+.experiment-teaser header {
 	display: block;
 	text-align: center;
 }
 
-experiment-teaser :is(.topic, .title) {
+.experiment-teaser :is(.topic, .title) {
 	color: var(--color);
 }
 
-experiment-teaser experiment-grid {
+.experiment-teaser experiment-grid {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -22,19 +22,10 @@ experiment-teaser experiment-grid {
 	margin-top: 20px;	
 }
 
-experiment-card .view {
-	transition: .5s;
-	margin-top: 10px;
-}
-
-experiment-card .view:hover {
-	transition: .5s;
-	text-decoration: 2px line-through var(--accent);
-}
 
 /* Breakpoints */
 @media (min-width: 660px) {
-	experiment-teaser header {
+	.experiment-teaser header {
 		text-align: initial;
 	}
 }

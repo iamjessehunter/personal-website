@@ -23,48 +23,6 @@
 				<p class="calm-voice">So, I came across <a href="https://perpetual.education/" target="_blank">Perpetual Education</a>in March 2021. Since being a student in the mentorship program I have and continue to sharpen my skills in responsive layouts, research and strategy, typography, visual design, user testing, and content hierarchy amongst other learned skills.</p>
 			</text-content>
 		</div>
-
-		<div class="connect">
-			<header>
-				<h2 class="mild-voice">Let's Connect</h2>
-			</header>
-			
-			<text-content>
-				<social-link>
-					<a class="email link-voice" 
-						href="mailto:jessehunt10@gmail.com">
-						<img src="images/gmail.png">
-						<span>Email: jessehunt10@gmail.com</span>
-					</a>
-				</social-link>
-
-				<social-link>
-					<a class="github link-voice" 
-						href="https://github.com/iamjessehunter" target="_blank">
-						<img src="images/github.png">
-						<span>Github: iamjessehunter</span>
-					</a>
-				</social-link>
-				
-				<social-link>
-					<a class="linkedin link-voice" 
-						href="https://www.linkedin.com/in/jesse-hunter-534958201"target="_blank">
-						<img src="images/linkedin.png">
-						<span>Linkedin: Jesse Hunter</span>
-					</a>
-				</social-link>
-				
-
-				<social-link>
-					<a class="codepen link-voice" 
-						href="">
-						<img src="images/codepen.png">
-						<span>Codepen: iamjessehunter</span>
-					</a>
-				</social-link>
-			</text-content>
-		</div>
-
 	</inner-column>
 </section> 
 

@@ -26,6 +26,7 @@
 @import 'modules/home.css';
 @import 'modules/templates/projects-teaser.css';
 @import 'modules/templates/experiments-intro.css';
+@import 'modules/templates/connect.css';
 /*  */
 @import 'modules/about.css';
 @import 'modules/projects-intro.css';
@@ -64,6 +65,11 @@ main {
 	padding-bottom: 100px;
 }
 
+.about {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
 .projects-intro {
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -83,6 +89,12 @@ main {
 
 .experiment-pens {
 	background: var(--background);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.talk-to-me {
+	background: var(--color);
 	padding-top: 60px;
 	padding-bottom: 60px;
 }

@@ -1,8 +1,8 @@
 
 <section class="experiment-pens">
 	<inner-column>
+		<div class="experiment-teaser">
 
-		<experiment-teaser>
 			<header>
 				<h3 class="soft-voice">Experiments</h3>
 
@@ -42,7 +42,7 @@
 					<a class="view link-voice" href="#">View Codepen</a>
 				</experiment-card>
 			</experiment-grid>
-		</experiment-teaser>
 
+		</div>
 	</inner-column>
 </section>

@@ -1,7 +1,7 @@
 
 <section class="off-the-press">
 	<inner-column>
-		<project-teaser>
+		<div class="project-teaser">
 			<header>
 				<h3 class="soft-voice">Projects</h3>
 
@@ -35,7 +35,7 @@
 			</project-grid>
 
 			<a class="showcase link-voice" href='?page=projects'>Visit All Projects</a>
-		</project-teaser>
+		</div>
 
 	</inner-column>
 </section>

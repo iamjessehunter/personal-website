@@ -17,6 +17,7 @@
 .soft-voice {
 	font-family: 'Rubik', sans-serif;
 	font-size: 18px;
+	line-height: 1.4;
 }
 
 /* Body Copy */
@@ -63,8 +64,4 @@
 	.link-voice {
 		font-size: 18px;
 	}
-}
-
-p + p {
-	margin-top: 12px;
 }

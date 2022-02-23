@@ -1,0 +1,31 @@
+
+.connect {
+	background: var(--white);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.connect header {
+	border-bottom: 3px solid var(--color);
+}
+
+.connect header .topic {
+	display: block;
+	color: var(--color);
+	text-align: center;
+}
+
+.connect header locations {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.connect text-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 10px;
+}

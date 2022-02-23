@@ -1,16 +1,16 @@
 
 /* Project-Teaser Setup */
-project-teaser {
+.project-teaser {
 	display: block;
 	color: var(--black);
 }
 
-project-teaser header {
+.project-teaser header {
 	display: block;
 	text-align: center;
 }
 
-project-teaser project-grid {
+.project-teaser project-grid {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -33,87 +33,26 @@ project-card picture {
 }
 
 /* Style */
-project-teaser .topic {
+.project-teaser .topic {
 	color: var(--color);
 }
 
-project-card .view {
-	position: relative;
-}
-
-project-card .view::before {
-	content: '';
-	position: absolute;
-	width: 45%;
-	height: 2px;
-	border-radius: 2px;
-	background-color: var(--accent);
-	bottom: 0;
-	left: 0;
-	transform-origin: right;
-	transform: scaleX(0);
-	transition: transform .3s ease-in-out;
-}
-
-project-card .view:hover::before {
-	transform-origin: left;
-	transform: scaleX(1);
-}
-
-
-project-teaser .showcase {
+.project-teaser .showcase {
 	display: block;
 	margin-top: 40px;
-}
-
-project-teaser .showcase {
-	background-image: linear-gradient(
-	 to right,
-	 var(--accent),
-	 var(--accent) 50%,
-	 #000 50%
-	);
-	background-size: 200% 100%;
-	background-position: -100%;
-	display: inline-block;
-	padding: 5px 0;
-	position: relative;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	transition: all 0.3s ease-in-out;
-}
-
-project-teaser .showcase:before {
-	content: '';
-	background: var(--accent);
-	display: block;
-	position: absolute;
-	bottom: -3px;
-	left: 0;
-	width: 0;
-	height: 3px;
-	transition: all 0.3s ease-in-out;
-}
-
-project-teaser .showcase:hover {
-	background-position: 0;
-}
-
-project-teaser .showcase:hover::before {
-	width:100%;
 }
 
 
 /* Breakpoints */
 @media (min-width: 660px) {
-	project-teaser project-grid {
+	.project-teaser project-grid {
 		flex-direction: row;
 		gap: 40px;
 	}
-	project-teaser header {
+	.project-teaser header {
 		text-align: initial;
 	}
-	project-teaser :is(project-card, .showcase) {
+	.project-teaser :is(project-card, .showcase) {
 		border-radius: 10px;
 	}
 	project-card .calm-voice {

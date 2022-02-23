@@ -17,6 +17,75 @@
   font-weight:  400;
 }
 
-.arrow {
-  /* maybe icons in here? Any reusable smaller things */  
+body section a {
+  width: fit-content;
 }
+
+/* View Hover Animation */
+.view {
+  background-image: linear-gradient(var(--accent), var(--accent)),
+    linear-gradient(var(--accent), var(--accent));
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%, 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.view:hover {
+  background-size: 100% 0.1em;
+}
+
+
+
+/* Showcase Hover Animation */
+.showcase {
+  background-image: linear-gradient(
+   to right,
+   var(--accent),
+   var(--accent) 50%,
+   #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.showcase:before {
+  content: '';
+  background: var(--accent);
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.showcase:hover {
+  background-position: 0;
+}
+
+.showcase:hover::before {
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

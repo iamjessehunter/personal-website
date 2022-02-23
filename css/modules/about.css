@@ -26,39 +26,6 @@
   text-decoration: underline;
 }
 
-/**/
-
-.connect {
-  max-width: 320px;
-}
-
-.connect :is(header, text-content) {
-  display: block;
-  background: var(--lightdark);
-  padding: 20px 14px;
-}
-
-.connect header {
-  color: var(--color);
-}
-
-.connect text-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 10px;
-}
-
-.connect text-content social-link {
-  display: flex;
-}
-
-.connect text-content img {
-  max-width: 50px;
-  display: block;
-}
-
-
 @media (min-width: 600px) {
   .about-me header {
     text-align: initial;

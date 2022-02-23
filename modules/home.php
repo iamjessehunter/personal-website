@@ -2,7 +2,7 @@
 <section class='home'>
 	<inner-column>
 
-		<landing>
+		<div class="landing">
 			<header>
 				<h2 class="mild-voice">WELCOME,</h2>
 
@@ -16,7 +16,7 @@
 
 				<a class="contact calm-voice" href="#">Indulge! If you want to chat or have any questions contact me!</a>
 			</text-content>
-		</landing>
+		</div>
 		
 	</inner-column>
 </section>
@@ -24,3 +24,5 @@
 <?php include('modules/templates/projects-teaser.php'); ?>
 
 <?php include('modules/templates/experiments-intro.php'); ?>
+
+<?php include('modules/templates/connect.php'); ?>
