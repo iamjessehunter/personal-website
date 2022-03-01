@@ -24,7 +24,7 @@
 				</project-card>
 
 				<project-card>
-					<a href="#">
+					<a href="https://peprojects.dev/alpha-1/Jhunt/projects/theme-challenge/" target="_blank">
 						<picture>
 							<img src="images/theme-challenge.svg">
 						</picture>

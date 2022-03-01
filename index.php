@@ -12,6 +12,9 @@
 	if ($page == "projects") {
 		include "modules/projects-intro.php";
 	}
+	if ($page == "experiments") {
+		include "modules/templates/experiments-intro.php";
+	}
 ?>
 
 <?php include('footer.php'); ?>

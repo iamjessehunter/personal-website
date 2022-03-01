@@ -1,27 +1,18 @@
 
-<!doctype html>
 
-<html lang='en'>
-	
-<?php include("head.php"); ?>
+<?php include('header.php'); ?>
 
-	<body>
-		
-		<?php include("modules/header.php"); ?>
+<!-- MODULES -->
 
-		<main>
-			
-			<?php include("modules/welcome.php"); ?>
+<?php include("modules/starbucks.php"); ?>
 
-			<?php include("modules/horse.php"); ?>
+<?php include("modules/solidworks.php"); ?>
 
-			<?php include("modules/solidworks.php"); ?>
+<?php include("modules/grandcentral.php"); ?>
 
-			<?php include("modules/grandcentral.php"); ?>
+<?php include("modules/proofpoint.php"); ?>
 
-			<?php include("modules/proofpoint.php"); ?>
-
-			<?php include("modules/paperpillar.php"); ?>
+<?php include("modules/paperpillar.php"); ?>
 			
 			<script type="text/javascript">	
 				var body = document.querySelector('body');

@@ -26,7 +26,7 @@
   text-decoration: underline;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 660px) {
   .about-me header {
     text-align: initial;
   }

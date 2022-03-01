@@ -10,22 +10,35 @@
 	text-align: center;
 }
 
-.experiment-teaser :is(.topic, .title) {
+.experiment-teaser .topic {
 	color: var(--color);
 }
 
 .experiment-teaser experiment-grid {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 30px;
 	/*  */
 	margin-top: 20px;	
 }
 
+.experiment-teaser experiment-card {
+	background: var(--white);
+	border-left: 10px solid var(--lightdark);
+	box-shadow: -2px 0px 5px 0px var(--lift);
+	border-radius: 10px;
+   padding: 10px 14px;
+}
 
 /* Breakpoints */
 @media (min-width: 660px) {
 	.experiment-teaser header {
 		text-align: initial;
+	}
+}
+
+@media (min-width: 768px) {
+	.experiment-teaser experiment-card {
+		width: fit-content;
 	}
 }

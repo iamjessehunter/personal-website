@@ -9,7 +9,7 @@
 		<a class="nav-voice" href="?page=home">Home</a>
 		<a class="nav-voice" href="?page=about">About</a>
 		<a class="nav-voice" href='?page=projects'>Projects</a>
-		<a class="nav-voice" href='#'>Experiments</a>
+		<a class="nav-voice" href='?page=experiments'>Experiments</a>
 	</nav>
 
 </mast-head>
