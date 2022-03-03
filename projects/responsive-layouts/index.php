@@ -4,6 +4,8 @@
 
 <!-- MODULES -->
 
+<?php include("modules/bbcnews.php"); ?>
+
 <?php include("modules/starbucks.php"); ?>
 
 <?php include("modules/solidworks.php"); ?>

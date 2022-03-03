@@ -6,7 +6,7 @@
       <header>
         <h3 class='soft-voice'>Projects</h3>
 
-        <h1 class="topic loud-voice">Here Are The Things I Have Built</h1>
+        <h1 class="topic loud-voice">MY WORK</h1>
       </header>
 
       <article-grid>
