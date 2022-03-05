@@ -14,7 +14,7 @@
 
 <?php include("modules/proofpoint.php"); ?>
 
-<?php include("modules/paperpillar.php"); ?>
+<?php include("modules/triumph.php"); ?>
 			
 			<script type="text/javascript">	
 				var body = document.querySelector('body');

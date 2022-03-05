@@ -2,10 +2,10 @@
 /* FOOTER STYLES */
 
 footer {
-	min-height: 10vh;
 	position: sticky;
 	top: 0;
-	background-color: var(--secondary);
+	background: var(--accent);
+	color: var(--black);
 }
 
 footer-wrapper {

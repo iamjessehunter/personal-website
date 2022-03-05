@@ -7,8 +7,6 @@
 		</h3>
 	</div>
 
-			
-	
 	<section class="solid-wrapper">
 		<inner-column>
 			<!-- Grid Content -->
