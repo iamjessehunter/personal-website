@@ -21,7 +21,8 @@
   background-size: 1px 25%;
 }
 
-.landing text-content .calm-voice {
+.landing :is(text-content, p + p) {
+  color: var(--textcopy);
   margin-top: 10px;
 }
 

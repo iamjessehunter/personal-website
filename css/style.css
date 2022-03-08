@@ -30,6 +30,7 @@
 @import 'modules/about.css';
 @import 'modules/projects-intro.css';
 @import 'modules/article-card.css';
+@import 'modules/contact-form.css';
 @import 'modules/site-map.css';
 
 
@@ -38,19 +39,18 @@ body {
 }
 
 header {
-
+	background: var(--offwhite);
 }
 
 main {
 	position: relative;
 	z-index: 3;
-	background-color: var(--offwhite);
+	background: var(--offwhite);
 }
 
 /* Page Style */
 .site-header {
-	background: var(--offwhite);
-	color: var(--primary);
+	color: var(--color);
 }
 
 @media (min-width: 768px) {
@@ -97,11 +97,12 @@ main {
 .experiment-pens {
 	padding-top: 60px;
 	padding-bottom: 60px;
+	min-height: 100vh;
 }
 
 .talk-to-me {
 	background: var(--color);
-	color: var(--black);
+	color: var(--textcopy);
 	padding-top: 60px;
 	padding-bottom: 60px;
 }

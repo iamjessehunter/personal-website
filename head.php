@@ -2,8 +2,10 @@
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-	<title>Portfolio Site</title>
-	<meta name='description' content='Dog walking my way into Coding'>
+	<title>JH | Portfolio Site | 2022</title>
+	<link rel="shortcut icon" href="images/blue.png">
+	<meta name='og:title' content='Portfolio Site of Jesse Hunter'>
+	<meta name='og:description' content='Dog Walking My Way into Coding'>
 	<meta property='og:image' content='images/default.png'>
 
 	<link rel='stylesheet' href='css/style.css'>

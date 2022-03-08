@@ -14,8 +14,13 @@ article-card picture {
   max-width: 300px;
 }
 
-project-card text-content {
+article-card text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
   margin-top: 10px;
+  color: var(--textcopy);
 } 
 
 @media (min-width: 660px) {

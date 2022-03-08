@@ -5,7 +5,7 @@
 <html lang='en'>
 	<?php include('head.php'); ?>
 
-	<body>
+	<body class="day-theme" data-theme="dark">
 		<header class='site-header'>
 		<inner-column>
 

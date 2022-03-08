@@ -1,0 +1,56 @@
+
+contact-me {
+	display: block;
+	background: var(--white);
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+contact-me :is(header, text-content) {
+	display: block;
+}
+
+contact-me header {
+	color: var(--color);
+	background: inherit;
+}
+
+contact-me text-content {
+	color: var(--textcopy);
+}
+
+contact-me text-content a {
+	color: var(--color);
+	display: inline-block;
+}
+
+contact-me .footer-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+contact-me .footer-menu img {
+  max-width: 40px;
+}
+
+contact-me .line {
+	padding: 4px;
+}
+
+contact-me .line-1 {
+	background: var(--offwhite);
+}
+
+contact-me .line-2 {
+	background: var(--lift);
+}
+
+contact-me .line-3 {
+	background: var(--accent);
+}
+
+contact-me .line-4 {
+	background: var(--color);
+}
