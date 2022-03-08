@@ -6,6 +6,8 @@
 
 <?php include("modules/bbcnews.php"); ?>
 
+<?php include("modules/nike.php"); ?>
+
 <?php include("modules/starbucks.php"); ?>
 
 <?php include("modules/solidworks.php"); ?>
@@ -13,8 +15,6 @@
 <?php include("modules/grandcentral.php"); ?>
 
 <?php include("modules/proofpoint.php"); ?>
-
-<?php include("modules/triumph.php"); ?>
 			
 			<script type="text/javascript">	
 				var body = document.querySelector('body');

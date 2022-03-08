@@ -1,0 +1,147 @@
+
+/* Settings */
+.nike {
+	--black: #000000;
+	--white: #FFFFFF;
+	position: relative;
+}
+
+.nike-wrapper :is(.landing, .card-preview) {
+	box-shadow: 0px 0px 10px 5px #D5D9DD;
+	padding: 20px;
+	position: relative;
+}
+
+/* Section Setup */
+.nike-wrapper {
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: var(--background);
+}
+
+/* Landing Setup */
+.nike-wrapper .landing header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 10px;
+	/* */
+	color: var(--black);
+}
+
+.nike-wrapper .landing header text-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 20px;
+	color: var(--black);
+	max-width: 340px;
+}
+
+/* Landing Style */
+.nike-wrapper .landing header h1 {
+	font-weight: 700;
+}
+
+.nike-wrapper .landing header picture {
+	margin-top: 10px;
+}
+
+/* Link */
+.nike-wrapper .landing header .shop {
+	color: var(--white);
+	background: var(--black);
+	width: 80px;
+	text-align: center;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+/* Breakpoint */
+@media (min-width: 700px) {
+	.nike-wrapper .landing header picture {
+		position: relative;
+		z-index: 1;
+	}
+	.nike-wrapper .landing header text-content {
+		color: var(--white);
+		position: absolute;
+		z-index: 2;
+		bottom: 10%;
+		left: 5%;
+	}
+	.nike-wrapper .landing header .shop {
+		color: var(--black);
+		background: var(--white);
+	}
+}
+
+
+
+
+
+
+/* Card-Preview Setup */
+.nike-wrapper .card-preview {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+.nike-wrapper .card-preview :is(header, recent-card) {
+	display: block;
+}
+
+.nike-wrapper .card-preview .card-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+/* Recent-Card */
+.nike-wrapper .card-preview recent-card {
+	position: relative;
+}
+
+.nike-wrapper .card-preview recent-card text-content h3 {
+	font-weight: 700;
+}
+
+/* Links */
+.nike-wrapper .card-preview recent-card text-content .link-wrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.nike-wrapper .card-preview :is(.shop, .explore) {
+	color: var(--black);
+	background: var(--white);
+	width: 80px;
+	text-align: center;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+/* Text Content */
+.nike-wrapper .card-preview recent-card text-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 20px;
+	color: var(--white);
+	position: absolute;
+		z-index: 2;
+		bottom: 10%;
+		left: 5%;
+}
+
+/* Breakpoint */
+@media (min-width: 700px) {
+	.nike-wrapper .card-preview .card-wrapper {
+		flex-direction: row;
+	}
+}

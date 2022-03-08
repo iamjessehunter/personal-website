@@ -10,16 +10,16 @@
 			
 			<project-grid>
 				<project-card>
-					<a href="https://peprojects.dev/alpha-1/Jhunt/responsive-layouts/" target="_blank">
+					<a href="https://peprojects.dev/alpha-1/Jhunt/projects/responsive-layouts/" target="_blank">
 						<picture>
 							<img src="images/responsive-layouts.svg">
 						</picture>
 					</a>
 
 					<text-content>
-						<a class="topic mild-voice" href="https://peprojects.dev/alpha-1/Jhunt/responsive-layouts/" target="_blank">DAILYS</a>
+						<a class="topic mild-voice" href="https://peprojects.dev/alpha-1/Jhunt/projects/responsive-layouts/" target="_blank">DAILYS</a>
 						<p class="calm-voice">A responsive layout collection from modules and sections taken from websites in the wild.</p>
-						<a class="view link-voice" href="https://peprojects.dev/alpha-1/Jhunt/responsive-layouts/" target="_blank">View Project</a>
+						<a class="view link-voice" href="https://peprojects.dev/alpha-1/Jhunt/projects/responsive-layouts/" target="_blank">View Project</a>
 					</text-content>
 				</project-card>
 

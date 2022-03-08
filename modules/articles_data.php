@@ -6,7 +6,7 @@ $database = [
 		"heading" => "DAILYS",
 		"description" => "A responsive layout collection from modules and sections taken from websites in the wild.",
 		"site" => "View Project",
-		"link" => "https://peprojects.dev/alpha-1/Jhunt/responsive-layouts/",
+		"link" => "https://peprojects.dev/alpha-1/Jhunt/projects/responsive-layouts/",
 	],
 	[
 		"image" => "images/theme-challenge.svg",
