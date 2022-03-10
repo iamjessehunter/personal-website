@@ -35,6 +35,13 @@
 						</text-content>
 					</welcome>
 				</div>
+
+				<div class="intro-grid">
+					  <div class="one"><img src="images/ultra-1-bike.png"></div>
+					  <div class="two"><img src="images/ultra-2-bike.png"></div>
+					  <div class="three"><img src="images/ultra-3-bike.png"></div>
+					  <div class="four"><img src="images/ultra-4-bike.png"></div>
+				</div>
 			</div>
 
 		</inner-column>
