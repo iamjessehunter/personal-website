@@ -6,6 +6,8 @@
 
 <?php include("modules/bbcnews.php"); ?>
 
+<?php include("modules/ultra.php"); ?>
+
 <?php include("modules/nike.php"); ?>
 
 <?php include("modules/starbucks.php"); ?>
