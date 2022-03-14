@@ -10,7 +10,7 @@ $database = [
 	],
 	[
 		"image" => "images/theme-challenge.svg",
-		"heading" => "BASE",
+		"heading" => "THEME-CHALLENGE",
 		"description" => "A boilerplate to conducting a basic website.",
 		"site" => "View Project",
 		"link" => "https://peprojects.dev/alpha-1/Jhunt/projects/theme-challenge/",

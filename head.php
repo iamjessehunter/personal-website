@@ -6,7 +6,7 @@
 	<link rel="shortcut icon" href="images/blue.png">
 	<meta name='og:title' content='Portfolio Site of Jesse Hunter'>
 	<meta name='og:description' content='Dog Walking My Way into Coding'>
-	<meta property='og:image' content='images/default.png'>
+	<meta property='og:image' content='images/meta.png'>
 
 	<link rel='stylesheet' href='css/style.css'>
 	<link href="https://fonts.googleapis.com/css?family=Karla|Rubik" rel="stylesheet">

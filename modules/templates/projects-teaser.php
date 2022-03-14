@@ -12,7 +12,7 @@
 				<project-card>
 					<a href="https://peprojects.dev/alpha-1/Jhunt/projects/responsive-layouts/" target="_blank">
 						<picture>
-							<img src="images/responsive-layouts.svg">
+							<img src="images/responsive-layouts.svg" alt="DAILYS project">
 						</picture>
 					</a>
 
@@ -26,7 +26,7 @@
 				<project-card>
 					<a href="https://peprojects.dev/alpha-1/Jhunt/projects/theme-challenge/" target="_blank">
 						<picture>
-							<img src="images/theme-challenge.svg">
+							<img src="images/theme-challenge.svg" alt="THEME-CHALLENGE project">
 						</picture>
 					</a>
 
