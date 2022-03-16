@@ -6,6 +6,8 @@
 
 <?php include("modules/bbcnews.php"); ?>
 
+<?php include("modules/headway.php"); ?>
+
 <?php include("modules/ultra.php"); ?>
 
 <?php include("modules/nike.php"); ?>
@@ -18,29 +20,8 @@
 
 <?php include("modules/proofpoint.php"); ?>
 			
-			<script type="text/javascript">	
-				var body = document.querySelector('body');
-				// set up a "listener" that will 
-				// listen for "clicks" (and taps) on the whole page!
-				document.addEventListener('click', function(event) {
+			
+<!-- FOOTER -->
 
-				  console.log(event.target);
+<?php include("footer.php"); ?>
 
-				  if ( event.target.matches('.toggle') ) {
-				    body.classList.toggle('small-menu-open');
-				  }
-
-				  if ( event.target.matches('a') ) {
-				    alert(`I'm a link for ${event.target.textContent}`);
-				  }
-				});
-				// the 'event' is the "click" - 
-				// and really... you can call that argument whatever you want. The first argument represents the event - no matter what you call it.
-			</script>
-					
-		</main>
-
-		<?php include("footer.php"); ?>
-
-	</body>
-</html>

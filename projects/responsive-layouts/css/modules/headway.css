@@ -1,0 +1,73 @@
+
+.headway {
+	--white: #FFFFFF;
+	--black: #000000;
+	--green: #12C97A;
+}
+
+.headway-wrapper .landing {
+	box-shadow: 0px 0px 10px 5px #D5D9DD;
+	padding: 20px;
+}
+
+/* Section Setup */
+.headway-wrapper {
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: var(--white);
+}
+
+.headway-wrapper .landing header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 30px;
+}
+
+.headway-wrapper .landing .text-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+/* Form */
+.headway-wrapper .landing header form {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+/* Select */
+.headway-wrapper .landing header .map {
+	border-radius: 5px 0px 0px 5px;
+	padding: 10px;
+	min-width: 160px;
+	
+}
+
+/* Button */
+.headway-wrapper .landing header form .go {
+	background: var(--green);
+	padding: 10px;
+	border-radius: 0px 5px 5px 0px;
+	max-width: 50px;
+}
+
+/* Breakpoint */
+@media (min-width: 768px) {
+	.headway-wrapper .landing header {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	/* Best Practice ... no */
+	.headway-wrapper .landing header h1 {
+		max-width: 468px;
+	}
+	.headway-wrapper .landing header p {
+		max-width: 1200px;
+	}
+}
