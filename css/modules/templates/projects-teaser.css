@@ -49,6 +49,7 @@ project-card text-content {
 
 .project-teaser .showcase {
 	margin-top: 40px;
+	border-bottom: 3px solid var(--color);
 }
 
 
@@ -61,7 +62,7 @@ project-card text-content {
 	.project-teaser header {
 		text-align: initial;
 	}
-	.project-teaser :is(project-card, .showcase) {
+	.project-teaser project-card {
 		border-radius: 10px;
 	}
 	project-card .calm-voice {

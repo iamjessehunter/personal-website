@@ -23,7 +23,7 @@
 				</experiment-card>
 
 				<experiment-card>
-					<a class="showcase mild-voice" href="#">Headers Without Burgers</a>
+					<a class="showcase mild-voice" href="https://codepen.io/collection/kNgNej" target="_blank">Headers Without Burgers</a>
 
 					<p class="calm-voice">Ditch the hamburger menu! Here are some examples of different header layouts you can try.</p>
 				</experiment-card>
