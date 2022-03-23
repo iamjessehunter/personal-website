@@ -1,0 +1,87 @@
+
+.perpetual-education {
+
+}
+
+.perpetual-wrapper .landing {
+	box-shadow: 0px 0px 10px 5px #D5D9DD;
+	padding: 20px;
+}
+
+/* Section Setup */
+.perpetual-wrapper {
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.perpetual-wrapper .landing {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 100px;
+}
+
+.perpetual-wrapper .landing .tech-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 100px;
+}
+
+.perpetual-wrapper .landing tech-card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.perpetual-wrapper .landing tech-card img {
+	box-shadow: 0px 10px 20px 0px rgba(0 0 0 / 30%);
+	border-radius: 10px;
+}
+
+/*  */
+
+.perpetual-wrapper .landing side-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+	/*  */
+	border: 4px solid black;
+	padding: 20px;
+	position: relative;
+	background: white;
+	width: 100%;
+	height: 100%;
+}
+
+.perpetual-wrapper .landing side-card bg-side-card {
+	border: 4px solid black;
+	position: absolute;
+	top: 20px;
+	left: -20px;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+@media (min-width: 900px) {
+	.perpetual-wrapper .landing {
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		position: relative;
+		border: 1px solid black;
+
+	}
+	.perpetual-wrapper .landing side-card {
+		position: sticky;
+		top: 100px;
+		bottom: 200px;
+		max-width: 300px;
+	}
+}

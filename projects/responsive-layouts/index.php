@@ -6,6 +6,8 @@
 
 <?php include("modules/bbcnews.php"); ?>
 
+<?php include("modules/perpetualeducation.php"); ?>
+
 <?php include("modules/headway.php"); ?>
 
 <?php include("modules/ultra.php"); ?>
