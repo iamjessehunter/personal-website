@@ -6,7 +6,7 @@
 
 <?php include("modules/bbcnews.php"); ?>
 
-<?php include("modules/perpetualeducation.php"); ?>
+<?php include("modules/idealimage.php"); ?>
 
 <?php include("modules/headway.php"); ?>
 
