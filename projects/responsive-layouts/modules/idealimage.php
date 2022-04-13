@@ -33,11 +33,18 @@
 
 				<survey-wrapper>
 					<header>
-						<h3 class="title mild-voice">Get $1000 in Value For Only $250</h3>
+						<h2 class="title loud-voice">Get $1000 in Value For Only $250</h2>
 					</header>
 
 					<form>
-						
+						<h3 class="title mild-voice">Step <span>1</span> Choose Services:</h3>
+
+						<ul class="services">
+							<div class="checkbox-1">
+								<input type="checkbox" name="checkmark">
+								<label for="checkbox-1">$100 in Value for Only $250</label>
+							</div>
+						</ul>
 					</form>
 					
 				</survey-wrapper>
